@@ -68,5 +68,12 @@ namespace Translator.core.CodeTranslators
 
             return workingAlfabet;
         }
+
+        public Dictionary<char, char> GetAlfabet(bool danish, char seed)
+        {
+            Dictionary<char, char> alfa = new Dictionary<char, char>();
+            alfa = ak.CreateAlfabet(danish, seed);
+            return alfa;
+        }
     }
 }

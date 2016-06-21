@@ -86,19 +86,22 @@ namespace CodeBreakerApp
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int btn_pressed_prim = 2130837504;
+			public const int AtoK = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int btn_pressed_sec = 2130837505;
+			public const int btn_pressed_prim = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int Icon = 2130837506;
+			public const int btn_pressed_sec = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int Morse = 2130837507;
+			public const int Icon = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int MorseKey = 2130837508;
+			public const int Morse = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int MorseKey = 2130837509;
 			
 			static Drawable()
 			{
@@ -118,6 +121,9 @@ namespace CodeBreakerApp
 			
 			// aapt resource value: 0x7f080013
 			public const int AtoKBtn = 2131230739;
+			
+			// aapt resource value: 0x7f080010
+			public const int AtoKImg = 2131230736;
 			
 			// aapt resource value: 0x7f080016
 			public const int ChinaBtn = 2131230742;
@@ -143,8 +149,8 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f080004
 			public const int Options = 2131230724;
 			
-			// aapt resource value: 0x7f08000c
-			public const int ShowTableBtn = 2131230732;
+			// aapt resource value: 0x7f08000d
+			public const int ShowTableBtn = 2131230733;
 			
 			// aapt resource value: 0x7f080018
 			public const int Signature = 2131230744;
@@ -158,14 +164,20 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f08001e
 			public const int SwitchBtn = 2131230750;
 			
-			// aapt resource value: 0x7f08000d
-			public const int TranslateBtn = 2131230733;
+			// aapt resource value: 0x7f08000e
+			public const int TranslateBtn = 2131230734;
 			
-			// aapt resource value: 0x7f08000b
-			public const int TranslateBtnContainer = 2131230731;
+			// aapt resource value: 0x7f08000c
+			public const int TranslateBtnContainer = 2131230732;
 			
 			// aapt resource value: 0x7f080000
 			public const int aboutTextBox = 2131230720;
+			
+			// aapt resource value: 0x7f08000a
+			public const int clearOutputBtn = 2131230730;
+			
+			// aapt resource value: 0x7f080009
+			public const int copyOutputBtn = 2131230729;
 			
 			// aapt resource value: 0x7f080002
 			public const int input = 2131230722;
@@ -173,26 +185,23 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f080003
 			public const int inputText = 2131230723;
 			
+			// aapt resource value: 0x7f080006
+			public const int ktoaChkBx = 2131230726;
+			
 			// aapt resource value: 0x7f080001
 			public const int linearLayout1 = 2131230721;
+			
+			// aapt resource value: 0x7f080007
+			public const int linearLayout2 = 2131230727;
 			
 			// aapt resource value: 0x7f08001f
 			public const int morseKeyFrame = 2131230751;
 			
-			// aapt resource value: 0x7f080009
-			public const int output = 2131230729;
-			
-			// aapt resource value: 0x7f08000a
-			public const int outputText = 2131230730;
-			
-			// aapt resource value: 0x7f080006
-			public const int radioGroup = 2131230726;
-			
 			// aapt resource value: 0x7f080008
-			public const int radio_bottomUp = 2131230728;
+			public const int output = 2131230728;
 			
-			// aapt resource value: 0x7f080007
-			public const int radio_topDown = 2131230727;
+			// aapt resource value: 0x7f08000b
+			public const int outputText = 2131230731;
 			
 			// aapt resource value: 0x7f080011
 			public const int scrollView1 = 2131230737;
@@ -200,14 +209,8 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f080005
 			public const int spin_seedChooser = 2131230725;
 			
-			// aapt resource value: 0x7f08000e
-			public const int tableLayout = 2131230734;
-			
 			// aapt resource value: 0x7f08000f
-			public const int tr_alfabet = 2131230735;
-			
-			// aapt resource value: 0x7f080010
-			public const int tr_pushedAlfabet = 2131230736;
+			public const int textView1 = 2131230735;
 			
 			static Id()
 			{
@@ -256,14 +259,17 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050000
 			public const int AboutBtn = 2131034112;
 			
-			// aapt resource value: 0x7f050017
-			public const int AboutTitl = 2131034135;
+			// aapt resource value: 0x7f050019
+			public const int AboutTitl = 2131034137;
 			
-			// aapt resource value: 0x7f050016
-			public const int ApplicationName = 2131034134;
+			// aapt resource value: 0x7f050018
+			public const int ApplicationName = 2131034136;
 			
 			// aapt resource value: 0x7f050008
 			public const int AtoKBtn = 2131034120;
+			
+			// aapt resource value: 0x7f050020
+			public const int AtoKExplain = 2131034144;
 			
 			// aapt resource value: 0x7f05000b
 			public const int ChinaBtn = 2131034123;
@@ -280,11 +286,14 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050001
 			public const int HelpBtn = 2131034113;
 			
-			// aapt resource value: 0x7f050013
-			public const int InputCode = 2131034131;
+			// aapt resource value: 0x7f050015
+			public const int InputCode = 2131034133;
 			
-			// aapt resource value: 0x7f050012
-			public const int InputText = 2131034130;
+			// aapt resource value: 0x7f050014
+			public const int InputText = 2131034132;
+			
+			// aapt resource value: 0x7f05001d
+			public const int KtoA = 2131034141;
 			
 			// aapt resource value: 0x7f05000e
 			public const int LineBtn = 2131034126;
@@ -295,23 +304,23 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050007
 			public const int MorseBtn = 2131034119;
 			
-			// aapt resource value: 0x7f050018
-			public const int MorseTitl = 2131034136;
+			// aapt resource value: 0x7f05001a
+			public const int MorseTitl = 2131034138;
 			
 			// aapt resource value: 0x7f05000a
 			public const int NrBtn = 2131034122;
 			
-			// aapt resource value: 0x7f050015
-			public const int OutputCode = 2131034133;
+			// aapt resource value: 0x7f050017
+			public const int OutputCode = 2131034135;
 			
-			// aapt resource value: 0x7f050014
-			public const int OutputText = 2131034132;
+			// aapt resource value: 0x7f050016
+			public const int OutputText = 2131034134;
 			
 			// aapt resource value: 0x7f050006
 			public const int ShowTableBtn = 2131034118;
 			
-			// aapt resource value: 0x7f050011
-			public const int Signature = 2131034129;
+			// aapt resource value: 0x7f050013
+			public const int Signature = 2131034131;
 			
 			// aapt resource value: 0x7f05000f
 			public const int SlashBtn = 2131034127;
@@ -328,26 +337,32 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050005
 			public const int TranslateBtn = 2131034117;
 			
-			// aapt resource value: 0x7f05001f
-			public const int aboutText = 2131034143;
-			
-			// aapt resource value: 0x7f05001d
-			public const int atokKeyTitl = 2131034141;
+			// aapt resource value: 0x7f050021
+			public const int aboutText = 2131034145;
 			
 			// aapt resource value: 0x7f05001e
-			public const int atokTableTitl = 2131034142;
+			public const int atokKeyTitl = 2131034142;
 			
-			// aapt resource value: 0x7f05001c
-			public const int bottomUp = 2131034140;
+			// aapt resource value: 0x7f05001f
+			public const int atokTableTitl = 2131034143;
 			
-			// aapt resource value: 0x7f050019
-			public const int morseKeyTitl = 2131034137;
+			// aapt resource value: 0x7f050023
+			public const int bottomUp = 2131034147;
 			
-			// aapt resource value: 0x7f05001a
-			public const int morseTableTitl = 2131034138;
+			// aapt resource value: 0x7f050012
+			public const int clearBtn = 2131034130;
+			
+			// aapt resource value: 0x7f050011
+			public const int copyBtn = 2131034129;
 			
 			// aapt resource value: 0x7f05001b
-			public const int topDown = 2131034139;
+			public const int morseKeyTitl = 2131034139;
+			
+			// aapt resource value: 0x7f05001c
+			public const int morseTableTitl = 2131034140;
+			
+			// aapt resource value: 0x7f050022
+			public const int topDown = 2131034146;
 			
 			static String()
 			{

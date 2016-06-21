@@ -34,5 +34,10 @@ namespace Translator.core
         {
             return atok.Translate(inputText, danish, fromText, seed);
         }
+
+        public Dictionary<char, char> GetAtoKAlfabet(bool danish, char seed)
+        {
+            return atok.GetAlfabet(danish, seed);
+        }
     }
 }

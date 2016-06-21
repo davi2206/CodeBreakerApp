@@ -40,7 +40,6 @@ namespace CodeBreakerApp.Activities
         string inputTextLbl = "";
         string outputTextLbl = "";
         bool softInput = true;
-        bool focusable = true;
         bool morseVisible = false;
         bool btnContainerVert = true;
 
@@ -59,7 +58,6 @@ namespace CodeBreakerApp.Activities
                     inputTextLbl = savedInstanceState.GetString("inputLbl");
                     outputTextLbl = savedInstanceState.GetString("outputLbl");
                     softInput = savedInstanceState.GetBoolean("showKeyboard");
-                    focusable = savedInstanceState.GetBoolean("focusable");
                     morseVisible = savedInstanceState.GetBoolean("morseVisible");
 
                     if (morseVisible)
@@ -74,8 +72,6 @@ namespace CodeBreakerApp.Activities
                     input.Text = inputTextLbl;
                     output.Text = outputTextLbl;
                     inputText.ShowSoftInputOnFocus = softInput;
-                    inputText.Focusable = focusable;
-                    inputText.FocusableInTouchMode = focusable;
                 }
                 catch (Exception)
                 {
@@ -91,7 +87,6 @@ namespace CodeBreakerApp.Activities
             bundle.PutString("inputLbl", input.Text);
             bundle.PutString("outputLbl", output.Text);
             bundle.PutBoolean("showKeyboard", inputText.ShowSoftInputOnFocus);
-            bundle.PutBoolean("focusable", inputText.Focusable);
             bundle.PutBoolean("morseVisible", morseVisible);
             bundle.PutBoolean("container", btnContainerVert);
 
@@ -150,7 +145,6 @@ namespace CodeBreakerApp.Activities
                 input.Text = GetString(Resource.String.InputCode);
                 output.Text = GetString(Resource.String.OutputText);
                 inputText.ShowSoftInputOnFocus = false;
-                inputText.Focusable = false;
                 morseAlfabetBtns.Visibility = ViewStates.Visible;
             }
             else
@@ -159,8 +153,6 @@ namespace CodeBreakerApp.Activities
                 morseVisible = false;
                 input.Text = GetString(Resource.String.InputText);
                 output.Text = GetString(Resource.String.OutputCode);
-                inputText.Focusable = true;
-                inputText.FocusableInTouchMode = true;
                 inputText.ShowSoftInputOnFocus = true;
                 morseAlfabetBtns.Visibility = ViewStates.Gone;
             }
@@ -168,7 +160,6 @@ namespace CodeBreakerApp.Activities
             inputTextLbl = input.Text;
             outputTextLbl = output.Text;
             softInput = inputText.ShowSoftInputOnFocus;
-            focusable = inputText.Focusable;
         }
 
         private void Btn_Translate_Click(object sender, EventArgs e)
@@ -194,24 +185,56 @@ namespace CodeBreakerApp.Activities
 
         private void Btn_Dot_Click(object sender, EventArgs e)
         {
-            inputText.Text += "*";
+            int pos = (inputText.SelectionStart);
+
+            if (pos > -1)
+            {
+                inputText.Text = inputText.Text.Insert(pos, "*");
+                inputText.SetSelection(pos+1);
+            }
+            else
+            {
+                inputText.Text += "*";
+            }
         }
 
         private void Btn_Line_Click(object sender, EventArgs e)
         {
-            inputText.Text += "-";
+            int pos = (inputText.SelectionStart);
+
+            if (pos > -1)
+            {
+                inputText.Text = inputText.Text.Insert(pos, "-");
+                inputText.SetSelection(pos+1);
+            }
+            else
+            {
+                inputText.Text += "-";
+            }
         }
 
         private void Btn_Slash_Click(object sender, EventArgs e)
         {
-            inputText.Text += "/";
+            int pos = (inputText.SelectionStart);
+
+            if (pos > -1)
+            {
+                inputText.Text = inputText.Text.Insert(pos, "/");
+                inputText.SetSelection(pos+1);
+            }
+            else
+            {
+                inputText.Text += "/";
+            }
         }
 
         private void Btn_Del_Click(object sender, EventArgs e)
         {
             try
             {
-                inputText.Text = inputText.Text.Remove(inputText.Text.Length - 1);
+                int pos = (inputText.SelectionStart - 1);
+                inputText.Text = inputText.Text.Remove(pos, 1);
+                inputText.SetSelection(pos);
             }
             catch { }
         }
