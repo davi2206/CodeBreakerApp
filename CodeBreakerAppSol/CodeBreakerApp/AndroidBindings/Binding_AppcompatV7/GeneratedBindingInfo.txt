@@ -1,0 +1,8 @@
+Binding for:
+com.android.support:appcompat-v7:23.1.0
+
+Dependencies:
+
+appcompat-v7-23.1.0.aar,    Path=C:\Users\David\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\appcompat-v7\23.1.0\appcompat-v7-23.1.0.aar
+	support-annotations-23.1.0.jar,    Path=C:\Users\David\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar
+	support-v4-23.1.0.aar,    Path=C:\Users\David\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\23.1.0\support-v4-23.1.0.aar

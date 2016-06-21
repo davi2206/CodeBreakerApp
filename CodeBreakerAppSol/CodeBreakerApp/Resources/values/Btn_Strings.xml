@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="AboutBtn">About</string>
+  <string name="HelpBtn">Help</string>
+  <string name="DonateBtn">Donate</string>
+  <string name="SugestBtn">Sugest Code</string>
+  <string name="SwitchBtn">Switch places</string>
+  <string name="TranslateBtn">Translate</string>
+  <string name="ShowTableBtn">Show translation table</string>
+  <string name="MorseBtn">Morse Code</string>
+  <string name="AtoKBtn">A-K Code</string>
+  <string name="SpejdBtn">Password Code</string>
+  <string name="NrBtn">Alfa Nr. Code</string>
+  <string name="ChinaBtn">Chinese Text</string>
+  <string name="MasonBtn">Free Masons Code</string>
+  <string name="DotBtn">*</string>
+  <string name="LineBtn">-</string>
+  <string name="SlashBtn">/</string>
+  <string name="DelBtn">&lt;-- Del</string>
+
+</resources>

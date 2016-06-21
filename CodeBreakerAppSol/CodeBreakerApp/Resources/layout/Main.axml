@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="93"
+        android:id="@+id/scrollView1"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="5dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout1"
+            android:background="@color/custBackGroundSec">
+            <Button
+                android:text="@string/MorseBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/MorseBtn" />
+            <Button
+                android:text="@string/AtoKBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/AtoKBtn" />
+            <Button
+                android:text="@string/SpejdBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/SpejdBtn" />
+            <Button
+                android:text="@string/NrBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/NrBtn" />
+            <Button
+                android:text="@string/ChinaBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/ChinaBtn" />
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:text="@string/AboutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_pressed_sec"
+        android:id="@+id/AboutBtn" />
+    <TextView
+        android:text="@string/Signature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:id="@+id/Signature"
+        android:textSize="10sp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="0.0dp" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.davi2206.CodeBreakerApp" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="23" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:label="@string/ApplicationName" android:theme="@style/AppTheme" android:icon="@drawable/icon" android:debuggable="false" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:icon="@drawable/icon" android:name="md570b3a900d97436c3f67f13edbec01ebe.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="AboutActivity" android:name="md5f6c1eca989a3eb0877683161220b6944.AboutActivity" />
+    <activity android:icon="@drawable/icon" android:label="" android:name="md5f6c1eca989a3eb0877683161220b6944.AtoKActivity" />
+    <activity android:label="AtoKTableActivity" android:name="md5f6c1eca989a3eb0877683161220b6944.AtoKTableActivity" />
+    <activity android:icon="@drawable/icon" android:label="" android:name="md5f6c1eca989a3eb0877683161220b6944.MorseActivity" />
+    <activity android:label="MorseTableActivity" android:name="md5f6c1eca989a3eb0877683161220b6944.MorseTableActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.davi2206.CodeBreakerApp.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.davi2206.CodeBreakerApp" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

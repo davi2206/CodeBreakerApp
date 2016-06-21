@@ -1,0 +1,8 @@
+C:\Users\David\Documents\Visual Studio 2015\Projects\CodeBreakerAppSol\Translator.core\bin\Debug\Translator.core.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\CodeBreakerAppSol\Translator.core\bin\Debug\Translator.core.pdb
+C:\Users\David\Documents\Visual Studio 2015\Projects\CodeBreakerAppSol\Translator.core\obj\Debug\Translator.core.dll
+C:\Users\David\Documents\Visual Studio 2015\Projects\CodeBreakerAppSol\Translator.core\obj\Debug\Translator.core.pdb
+C:\Users\David\Documents\Visual Studio 2015\Projects\CodeBreakerAppSol\Translator.core\obj\Debug\Translator.core.dll.mdb
+C:\Users\David\Documents\Visual Studio 2015\Projects\CodeBreakerAppSol\Translator.core\bin\Debug\Translator.core.dll.mdb
+C:\Users\David\Documents\Visual Studio 2015\Projects\CodeBreakerAppSol\Translator.core\obj\Debug\Translator.core.dll.mdb
+C:\Users\David\Documents\Visual Studio 2015\Projects\CodeBreakerAppSol\Translator.core\bin\Debug\Translator.core.dll.mdb

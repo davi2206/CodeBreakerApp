@@ -1,0 +1,5 @@
+<resources><string name="ApplicationName">Code Cracker</string><string name="AboutTitl">About Code Cracker</string><string name="MorseTitl">Code Cracker - Morse</string><string name="morseKeyTitl">Morse Key</string><string name="morseTableTitl">Morse Table</string><string name="topDown">Translate A-K</string><string name="bottomUp">Translate K-A</string><string name="atokKeyTitl">Code Cracker - A-K</string><string name="atokTableTitl">A-K Key</string><string name="aboutText">
+    Code Cracker is a spare time project that I have been working on, for educational purposes. It is the first Android application that I have created.
+    \n\nThe idea with the app is to be able to read and write various types of codes, such as Morse code, number codes, and a few other types.
+    \n\nThis is an early version of the app, and only Morse code is implemented, so far. 
+  </string></resources>

@@ -1,0 +1,1 @@
+C:\Users\David\Documents\Visual Studio 2015\Projects\CodeBreakerAppSol\CodeBreakerApp\AndroidBindings\Binding_AppcompatV7\obj\Debug\Binding_AppcompatV7.csprojResolveAssemblyReference.cache
