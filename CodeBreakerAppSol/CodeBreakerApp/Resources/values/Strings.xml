@@ -13,6 +13,8 @@
   <string name="atokTableTitl">A-K Key</string>
   <string name="AtoKExplain">This is the default table, for A-K codes. The bottom alfabet is simply pushed, until the desired \'seed\' letter is below \'a\' in the top alfabet</string>
 
+  <string name="InputPassword">Insert Password</string>
+
   <string name="aboutText">
     Code Cracker is a spare time project that I have been working on, for educational purposes. It is the first Android application that I have created.
     \n\nThe idea with the app is to be able to read and write various types of codes, such as Morse code, number codes, and a few other types.

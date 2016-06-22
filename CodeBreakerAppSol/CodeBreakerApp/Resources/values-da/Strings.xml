@@ -14,6 +14,8 @@
   <string name="atokTableTitl">A-K Nøgle</string>
   <string name="AtoKExplain">Dette er det standard tabellen, for A-K kode. Det nederste alfabet skubbes, indtil det ønskede udgangs bogstav er under \'a\' i det øverste alfabet</string>
 
+  <string name="InputPassword">Kodeord</string>
+
   <string name="aboutText">
     Code Cracker er et fritids projekt, som jeg har arbejdet med, for læringens skyld. Det er den første Android Applikation jeg har lavet.
     \n\nIdeen med denne app er at blive i stand til at læse og skrive forskelige typer koder, så som morse, tal koder, og et par andre typer. 

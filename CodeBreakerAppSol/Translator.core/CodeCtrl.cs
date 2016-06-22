@@ -11,11 +11,13 @@ namespace Translator.core
     {
         private Morse morse;
         private AtoK atok;
+        private Spejd spejd;
 
         public CodeCtrl()
         {
             morse = new Morse();
             atok = new AtoK();
+            spejd = new Spejd();
         }
 
         //Morse code
@@ -33,6 +35,11 @@ namespace Translator.core
         public string AtoK(string inputText, bool danish, bool fromText, char seed)
         {
             return atok.Translate(inputText, danish, fromText, seed);
+        }
+
+        public string Spejd(string inputText, string password, bool danish)
+        {
+            return spejd.Translate(inputText, password, danish);
         }
 
         public Dictionary<char, char> GetAtoKAlfabet(bool danish, char seed)

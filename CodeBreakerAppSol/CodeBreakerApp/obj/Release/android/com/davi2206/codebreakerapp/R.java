@@ -52,6 +52,8 @@ public final class R {
         public static final int clearOutputBtn=0x7f08000a;
         public static final int copyOutputBtn=0x7f080009;
         public static final int input=0x7f080002;
+        public static final int inputPass=0x7f080020;
+        public static final int inputPassword=0x7f080021;
         public static final int inputText=0x7f080003;
         public static final int ktoaChkBx=0x7f080006;
         public static final int linearLayout1=0x7f080001;
@@ -70,6 +72,7 @@ public final class R {
         public static final int main=0x7f030003;
         public static final int morse=0x7f030004;
         public static final int morsetable=0x7f030005;
+        public static final int spejd=0x7f030006;
     }
     public static final class string {
         public static final int AboutBtn=0x7f050000;
@@ -83,6 +86,7 @@ public final class R {
         public static final int DotBtn=0x7f05000d;
         public static final int HelpBtn=0x7f050001;
         public static final int InputCode=0x7f050015;
+        public static final int InputPassword=0x7f050021;
         public static final int InputText=0x7f050014;
         public static final int KtoA=0x7f05001d;
         public static final int LineBtn=0x7f05000e;
@@ -99,15 +103,15 @@ public final class R {
         public static final int SugestBtn=0x7f050003;
         public static final int SwitchBtn=0x7f050004;
         public static final int TranslateBtn=0x7f050005;
-        public static final int aboutText=0x7f050021;
+        public static final int aboutText=0x7f050022;
         public static final int atokKeyTitl=0x7f05001e;
         public static final int atokTableTitl=0x7f05001f;
-        public static final int bottomUp=0x7f050023;
+        public static final int bottomUp=0x7f050024;
         public static final int clearBtn=0x7f050012;
         public static final int copyBtn=0x7f050011;
         public static final int morseKeyTitl=0x7f05001b;
         public static final int morseTableTitl=0x7f05001c;
-        public static final int topDown=0x7f050022;
+        public static final int topDown=0x7f050023;
     }
     public static final class style {
         /** Overall styles here.. 

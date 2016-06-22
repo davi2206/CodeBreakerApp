@@ -39,9 +39,11 @@
   <ItemGroup>
     <Compile Include="Alfabets\AtoKAlfabet.cs" />
     <Compile Include="Alfabets\MorseAlfabet.cs" />
+    <Compile Include="Alfabets\SpejdAlfabet.cs" />
     <Compile Include="CodeCtrl.cs" />
     <Compile Include="CodeTranslators\AtoK.cs" />
     <Compile Include="CodeTranslators\Morse.cs" />
+    <Compile Include="CodeTranslators\Spejd.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

@@ -182,6 +182,12 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f080002
 			public const int input = 2131230722;
 			
+			// aapt resource value: 0x7f080020
+			public const int inputPass = 2131230752;
+			
+			// aapt resource value: 0x7f080021
+			public const int inputPassword = 2131230753;
+			
 			// aapt resource value: 0x7f080003
 			public const int inputText = 2131230723;
 			
@@ -243,6 +249,9 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f030005
 			public const int MorseTable = 2130903045;
 			
+			// aapt resource value: 0x7f030006
+			public const int Spejd = 2130903046;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -288,6 +297,9 @@ namespace CodeBreakerApp
 			
 			// aapt resource value: 0x7f050015
 			public const int InputCode = 2131034133;
+			
+			// aapt resource value: 0x7f050021
+			public const int InputPassword = 2131034145;
 			
 			// aapt resource value: 0x7f050014
 			public const int InputText = 2131034132;
@@ -337,8 +349,8 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050005
 			public const int TranslateBtn = 2131034117;
 			
-			// aapt resource value: 0x7f050021
-			public const int aboutText = 2131034145;
+			// aapt resource value: 0x7f050022
+			public const int aboutText = 2131034146;
 			
 			// aapt resource value: 0x7f05001e
 			public const int atokKeyTitl = 2131034142;
@@ -346,8 +358,8 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f05001f
 			public const int atokTableTitl = 2131034143;
 			
-			// aapt resource value: 0x7f050023
-			public const int bottomUp = 2131034147;
+			// aapt resource value: 0x7f050024
+			public const int bottomUp = 2131034148;
 			
 			// aapt resource value: 0x7f050012
 			public const int clearBtn = 2131034130;
@@ -361,8 +373,8 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f05001c
 			public const int morseTableTitl = 2131034140;
 			
-			// aapt resource value: 0x7f050022
-			public const int topDown = 2131034146;
+			// aapt resource value: 0x7f050023
+			public const int topDown = 2131034147;
 			
 			static String()
 			{

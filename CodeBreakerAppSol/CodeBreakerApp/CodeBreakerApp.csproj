@@ -68,11 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\AboutActivity.cs" />
-    <Compile Include="Activities\CodeActivities\AtoKActivity.cs" />
-    <Compile Include="Activities\CodeActivities\AtoKTableActivity.cs" />
+    <Compile Include="Activities\CodeActivities\AtoK\AtoKActivity.cs" />
+    <Compile Include="Activities\CodeActivities\AtoK\AtoKTableActivity.cs" />
+    <Compile Include="Activities\CodeActivities\SPEJD\SpejdActivity.cs" />
+    <Compile Include="Activities\CodeActivities\SPEJD\SpejdTableActivity.cs" />
     <Compile Include="Activities\MainActivity.cs" />
-    <Compile Include="Activities\CodeActivities\MorseActivity.cs" />
-    <Compile Include="Activities\CodeActivities\MorseTableActivity.cs" />
+    <Compile Include="Activities\CodeActivities\Morse\MorseActivity.cs" />
+    <Compile Include="Activities\CodeActivities\Morse\MorseTableActivity.cs" />
     <Compile Include="Fragments\MorseKey.cs" />
     <Compile Include="Fragments\MorseTable.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -96,6 +98,9 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\AtoKTable.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Spejd.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -180,6 +185,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\AtoK.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Activities\CodeActivities\AlfaNr\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -93,6 +93,7 @@ C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Rel
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Release\res\drawable\atok.png
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\bin\Release\CodeBreakerApp.dll.mdb
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\bin\Release\Translator.core.dll.mdb
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Release\res\layout\spejd.xml
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\bin\Release\Java.Interop.dll.mdb
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\bin\Release\Mono.Android.dll.mdb
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\bin\Release\mscorlib.dll.mdb
