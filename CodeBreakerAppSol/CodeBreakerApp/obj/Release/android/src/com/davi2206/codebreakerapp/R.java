@@ -49,6 +49,7 @@ public final class R {
         public static final int TranslateBtn=0x7f08000e;
         public static final int TranslateBtnContainer=0x7f08000c;
         public static final int aboutTextBox=0x7f080000;
+        public static final int bottomHalf=0x7f080023;
         public static final int clearOutputBtn=0x7f08000a;
         public static final int copyOutputBtn=0x7f080009;
         public static final int input=0x7f080002;
@@ -64,6 +65,7 @@ public final class R {
         public static final int scrollView1=0x7f080011;
         public static final int spin_seedChooser=0x7f080005;
         public static final int textView1=0x7f08000f;
+        public static final int topHalf=0x7f080022;
     }
     public static final class layout {
         public static final int about=0x7f030000;
@@ -73,6 +75,7 @@ public final class R {
         public static final int morse=0x7f030004;
         public static final int morsetable=0x7f030005;
         public static final int spejd=0x7f030006;
+        public static final int spejdtable=0x7f030007;
     }
     public static final class string {
         public static final int AboutBtn=0x7f050000;
@@ -80,15 +83,16 @@ public final class R {
         public static final int ApplicationName=0x7f050018;
         public static final int AtoKBtn=0x7f050008;
         public static final int AtoKExplain=0x7f050020;
+        public static final int AtoKTitl=0x7f05001d;
         public static final int ChinaBtn=0x7f05000b;
         public static final int DelBtn=0x7f050010;
         public static final int DonateBtn=0x7f050002;
         public static final int DotBtn=0x7f05000d;
         public static final int HelpBtn=0x7f050001;
         public static final int InputCode=0x7f050015;
-        public static final int InputPassword=0x7f050021;
+        public static final int InputPassword=0x7f050025;
         public static final int InputText=0x7f050014;
-        public static final int KtoA=0x7f05001d;
+        public static final int KtoA=0x7f050021;
         public static final int LineBtn=0x7f05000e;
         public static final int MasonBtn=0x7f05000c;
         public static final int MorseBtn=0x7f050007;
@@ -100,18 +104,21 @@ public final class R {
         public static final int Signature=0x7f050013;
         public static final int SlashBtn=0x7f05000f;
         public static final int SpejdBtn=0x7f050009;
+        public static final int SpejdKeyTitl=0x7f050023;
+        public static final int SpejdPasswordDouble=0x7f050026;
+        public static final int SpejdPasswordInval=0x7f050027;
+        public static final int SpejdTableTitl=0x7f050024;
+        public static final int SpejdTitl=0x7f050022;
         public static final int SugestBtn=0x7f050003;
         public static final int SwitchBtn=0x7f050004;
         public static final int TranslateBtn=0x7f050005;
-        public static final int aboutText=0x7f050022;
+        public static final int aboutText=0x7f050028;
         public static final int atokKeyTitl=0x7f05001e;
         public static final int atokTableTitl=0x7f05001f;
-        public static final int bottomUp=0x7f050024;
         public static final int clearBtn=0x7f050012;
         public static final int copyBtn=0x7f050011;
         public static final int morseKeyTitl=0x7f05001b;
         public static final int morseTableTitl=0x7f05001c;
-        public static final int topDown=0x7f050023;
     }
     public static final class style {
         /** Overall styles here.. 

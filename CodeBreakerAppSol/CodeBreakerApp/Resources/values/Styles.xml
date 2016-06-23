@@ -26,7 +26,7 @@
     <item name="android:textColor">@android:color/white</item>
     <item name="android:textSize">20sp</item>
     <item name="android:layout_marginTop">200sp</item>
-    <item name="android:padding">10sp</item>
+    <item name="android:padding">2sp</item>
   </style>
 
   <!--TextView-->

@@ -14,36 +14,35 @@ namespace Translator.core.Alfabets
         public Dictionary<char, char> GenerateAlfabet(string password, bool danish)
         {
             alfabet = new Dictionary<char, char>();
+            alfabet.Clear();
             defaultAlfabet = DefaultAlfabet(danish);
 
             string newAlfabet = "";
 
-            int length = 13;
-            if (danish)
-            {
-                length++;
-            }
-            
-            foreach(char c in password)
+            int length = (defaultAlfabet.Length / 2);
+
+            foreach (char c in password)
             {
                 newAlfabet += c;
             }
 
-            foreach(char c in defaultAlfabet)
+            foreach (char c in defaultAlfabet)
             {
-                if(!newAlfabet.Contains(c.ToString()))
+                if (!newAlfabet.Contains(c.ToString()))
                 {
                     newAlfabet += c;
                 }
             }
 
             string first = newAlfabet.Substring(0, length);
-            string second = newAlfabet.Substring(length + 1);
+            string second = newAlfabet.Substring(length);
 
-            for(int i = 0; i < length; i++)
+            for (int i = 0; i < length; i++)
             {
                 alfabet.Add(first[i], second[i]);
             }
+
+            alfabet = AddCapsToAlfabet(alfabet);
 
             return alfabet;
         }
@@ -61,6 +60,32 @@ namespace Translator.core.Alfabets
             {
                 return notDan;
             }
+        }
+
+        private Dictionary<char, char> AddCapsToAlfabet(Dictionary<char, char> alfabet)
+        {
+            Dictionary<char, char> alfabetCaps = new Dictionary<char, char>();
+            alfabetCaps.Clear();
+
+            foreach(KeyValuePair<char, char> kv in alfabet)
+            {
+                alfabetCaps.Add(kv.Key, kv.Value);
+            }
+
+            foreach (KeyValuePair<char, char> kvx in alfabet)
+            {
+                string ks = kvx.Key.ToString();
+                ks = ks.ToUpper();
+                char k = ks[0];
+
+                string vs = kvx.Value.ToString();
+                vs = vs.ToUpper();
+                char v = vs[0];
+
+                alfabetCaps.Add(k, v);
+            }
+
+            return alfabetCaps;
         }
     }
 }

@@ -37,14 +37,24 @@ namespace Translator.core
             return atok.Translate(inputText, danish, fromText, seed);
         }
 
+        //SPEJD code
         public string Spejd(string inputText, string password, bool danish)
         {
-            return spejd.Translate(inputText, password, danish);
+            string pass = password.ToLower();
+            return spejd.Translate(inputText, pass, danish);
         }
 
+        //Get alfabet, A - K
         public Dictionary<char, char> GetAtoKAlfabet(bool danish, char seed)
         {
             return atok.GetAlfabet(danish, seed);
+        }
+
+        //Get alfabet, A - K
+        public Dictionary<char, char> GetSpejdAlfabet(string password, bool danish)
+        {
+            string pass = password.ToLower();
+            return spejd.GetAlfabet(pass, danish);
         }
     }
 }

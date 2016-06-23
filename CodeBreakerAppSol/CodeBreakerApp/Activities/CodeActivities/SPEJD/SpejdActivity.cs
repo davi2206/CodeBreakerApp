@@ -25,7 +25,6 @@ namespace CodeBreakerApp.Activities
         EditText inputText;
         EditText outputText;
         EditText inputPassword;
-        LinearLayout options;
         LinearLayout btnContainer;
 
         CodeCtrl cCtrl;
@@ -76,7 +75,7 @@ namespace CodeBreakerApp.Activities
 
         private void FindViews()
         {
-            SetTitle(Resource.String.MorseTitl);
+            SetTitle(Resource.String.SpejdTitl);
             btn_translate = FindViewById<Button>(Resource.Id.TranslateBtn);
             btn_showTable = FindViewById<Button>(Resource.Id.ShowTableBtn);
             btn_copyOutput = FindViewById<Button>(Resource.Id.copyOutputBtn);
@@ -93,7 +92,7 @@ namespace CodeBreakerApp.Activities
             cCtrl = new CodeCtrl();
             userInput = "";
             result = "";
-            options = FindViewById<LinearLayout>(Resource.Id.MorseAlfabetContainer);
+            //options = FindViewById<LinearLayout>(Resource.Id.);
 
             input.Text = GetString(Resource.String.InputText);
             output.Text = GetString(Resource.String.OutputCode);
@@ -123,13 +122,17 @@ namespace CodeBreakerApp.Activities
 
             try
             {
-                password = inputPassword.Text;
+                password = inputPassword.Text.Trim().ToLower();
             }
             catch(Exception ex)
             {
                 throw ex;
             }
 
+            if(!TestPassword(password))
+            {
+                return;
+            }
 
             result = cCtrl.Spejd(userInput, password, danish);
             
@@ -138,8 +141,20 @@ namespace CodeBreakerApp.Activities
 
         private void Btn_ShowTable_Click(object sender, EventArgs e)
         {
+            bool danish = false;
+            string[] list = Resources.GetStringArray(Resource.Array.alfabet);
+            if (list.Contains("ø"))
+            {
+                danish = true;
+            }
+
             Intent intent = new Intent(this, typeof(SpejdTableActivity));
-            StartActivity(intent);
+            Bundle options = new Bundle();
+
+            options.PutString("password", inputPassword.Text);
+            options.PutBoolean("danish", danish);
+
+            StartActivity(intent, options);
         }
 
         private void Btn_CopyOutput_Click(object sender, EventArgs e)
@@ -154,6 +169,41 @@ namespace CodeBreakerApp.Activities
         private void Btn_ClearOutput_Click(object sender, EventArgs e)
         {
             outputText.Text = "";
+        }
+
+        private bool TestPassword(string password)
+        {
+            string tester = "";
+            string[] list = Resources.GetStringArray(Resource.Array.alfabet);
+            string alfabet = "";
+
+            alfabet = string.Join("", list);
+
+            foreach (char c in password)
+            {
+                string s = c.ToString().ToLower();
+
+                if (!tester.Contains(s))
+                {
+                    tester += s;
+                }
+                else
+                {
+                    Toast t = Toast.MakeText(this, Resource.String.SpejdPasswordDouble, ToastLength.Long);
+                    t.Show();
+                    outputText.Text = "";
+                    return false;
+                }
+
+                if(!alfabet.Contains(s))
+                {
+                    Toast t = Toast.MakeText(this, Resource.String.SpejdPasswordInval, ToastLength.Long);
+                    t.Show();
+                    outputText.Text = "";
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

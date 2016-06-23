@@ -77,7 +77,7 @@ namespace CodeBreakerApp.Activities
 
         private void FindViews()
         {
-            SetTitle(Resource.String.MorseTitl);
+            SetTitle(Resource.String.AtoKTitl);
             btn_translate = FindViewById<Button>(Resource.Id.TranslateBtn);
             btn_showTable = FindViewById<Button>(Resource.Id.ShowTableBtn);
             btn_copyOutput = FindViewById<Button>(Resource.Id.copyOutputBtn);

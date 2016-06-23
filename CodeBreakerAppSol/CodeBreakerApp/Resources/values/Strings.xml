@@ -7,14 +7,20 @@
   <string name="MorseTitl">Code Cracker - Morse</string>
   <string name="morseKeyTitl">Morse Key</string>
   <string name="morseTableTitl">Morse Table</string>
-  
-  <string name="KtoA">Translate K-A</string>
-  <string name="atokKeyTitl">Code Cracker - A-K</string>
-  <string name="atokTableTitl">A-K Key</string>
+
+  <string name="AtoKTitl">Code Cracker - A-K</string>
+  <string name="atokKeyTitl">A-K Key</string>
+  <string name="atokTableTitl">A-K Table</string>
   <string name="AtoKExplain">This is the default table, for A-K codes. The bottom alfabet is simply pushed, until the desired \'seed\' letter is below \'a\' in the top alfabet</string>
+  <string name="KtoA">Translate K-A</string>
 
+  <string name="SpejdTitl">Code Cracker - Password</string>
+  <string name="SpejdKeyTitl">Password Key</string>
+  <string name="SpejdTableTitl">Password Table</string>
   <string name="InputPassword">Insert Password</string>
-
+  <string name="SpejdPasswordDouble">The password must never contain the same letter more than once!</string>
+  <string name="SpejdPasswordInval">The password must only contain letters! No special characters!</string>
+  
   <string name="aboutText">
     Code Cracker is a spare time project that I have been working on, for educational purposes. It is the first Android application that I have created.
     \n\nThe idea with the app is to be able to read and write various types of codes, such as Morse code, number codes, and a few other types.

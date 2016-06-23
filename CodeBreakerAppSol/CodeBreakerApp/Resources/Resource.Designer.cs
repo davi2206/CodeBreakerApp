@@ -173,6 +173,9 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f080000
 			public const int aboutTextBox = 2131230720;
 			
+			// aapt resource value: 0x7f080023
+			public const int bottomHalf = 2131230755;
+			
 			// aapt resource value: 0x7f08000a
 			public const int clearOutputBtn = 2131230730;
 			
@@ -218,6 +221,9 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f08000f
 			public const int textView1 = 2131230735;
 			
+			// aapt resource value: 0x7f080022
+			public const int topHalf = 2131230754;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -252,6 +258,9 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f030006
 			public const int Spejd = 2130903046;
 			
+			// aapt resource value: 0x7f030007
+			public const int SpejdTable = 2130903047;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -280,6 +289,9 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050020
 			public const int AtoKExplain = 2131034144;
 			
+			// aapt resource value: 0x7f05001d
+			public const int AtoKTitl = 2131034141;
+			
 			// aapt resource value: 0x7f05000b
 			public const int ChinaBtn = 2131034123;
 			
@@ -298,14 +310,14 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050015
 			public const int InputCode = 2131034133;
 			
-			// aapt resource value: 0x7f050021
-			public const int InputPassword = 2131034145;
+			// aapt resource value: 0x7f050025
+			public const int InputPassword = 2131034149;
 			
 			// aapt resource value: 0x7f050014
 			public const int InputText = 2131034132;
 			
-			// aapt resource value: 0x7f05001d
-			public const int KtoA = 2131034141;
+			// aapt resource value: 0x7f050021
+			public const int KtoA = 2131034145;
 			
 			// aapt resource value: 0x7f05000e
 			public const int LineBtn = 2131034126;
@@ -340,6 +352,21 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050009
 			public const int SpejdBtn = 2131034121;
 			
+			// aapt resource value: 0x7f050023
+			public const int SpejdKeyTitl = 2131034147;
+			
+			// aapt resource value: 0x7f050026
+			public const int SpejdPasswordDouble = 2131034150;
+			
+			// aapt resource value: 0x7f050027
+			public const int SpejdPasswordInval = 2131034151;
+			
+			// aapt resource value: 0x7f050024
+			public const int SpejdTableTitl = 2131034148;
+			
+			// aapt resource value: 0x7f050022
+			public const int SpejdTitl = 2131034146;
+			
 			// aapt resource value: 0x7f050003
 			public const int SugestBtn = 2131034115;
 			
@@ -349,17 +376,14 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050005
 			public const int TranslateBtn = 2131034117;
 			
-			// aapt resource value: 0x7f050022
-			public const int aboutText = 2131034146;
+			// aapt resource value: 0x7f050028
+			public const int aboutText = 2131034152;
 			
 			// aapt resource value: 0x7f05001e
 			public const int atokKeyTitl = 2131034142;
 			
 			// aapt resource value: 0x7f05001f
 			public const int atokTableTitl = 2131034143;
-			
-			// aapt resource value: 0x7f050024
-			public const int bottomUp = 2131034148;
 			
 			// aapt resource value: 0x7f050012
 			public const int clearBtn = 2131034130;
@@ -372,9 +396,6 @@ namespace CodeBreakerApp
 			
 			// aapt resource value: 0x7f05001c
 			public const int morseTableTitl = 2131034140;
-			
-			// aapt resource value: 0x7f050023
-			public const int topDown = 2131034147;
 			
 			static String()
 			{

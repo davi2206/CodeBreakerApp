@@ -46,5 +46,13 @@ namespace Translator.core.CodeTranslators
 
             return result;
         }
+
+        public Dictionary<char, char> GetAlfabet(string password, bool danish)
+        {
+            alfabet = new Dictionary<char, char>();
+            alfabet = spejd.GenerateAlfabet(password, danish);
+            
+            return alfabet;
+        }
     }
 }
