@@ -23,6 +23,8 @@ namespace CodeBreakerApp.Activities
         Button btn_line;
         Button btn_slash;
         Button btn_del;
+        Button btn_copyRes;
+        Button btn_clearRes;
         TextView input;
         TextView output;
         EditText inputText;
@@ -103,6 +105,8 @@ namespace CodeBreakerApp.Activities
             btn_line = FindViewById<Button>(Resource.Id.LineBtn);
             btn_slash = FindViewById<Button>(Resource.Id.SlashBtn);
             btn_del = FindViewById<Button>(Resource.Id.DelBtn);
+            btn_copyRes = FindViewById<Button>(Resource.Id.copyOutputBtn);
+            btn_clearRes = FindViewById<Button>(Resource.Id.clearOutputBtn);
             input = FindViewById<TextView>(Resource.Id.input);
             output = FindViewById<TextView>(Resource.Id.output);
             inputText = FindViewById<EditText>(Resource.Id.inputText);
@@ -127,6 +131,8 @@ namespace CodeBreakerApp.Activities
             btn_slash.Click += Btn_Slash_Click;
             btn_del.Click += Btn_Del_Click;
             btn_del.LongClick += Btn_Del_Long_Click;
+            btn_copyRes.Click += Btn_CopyRes_Click;
+            btn_clearRes.Click += Btn_ClearRes_Click;
             inputText.EditorAction += Btn_Translate_Click;
         }
 
@@ -246,6 +252,20 @@ namespace CodeBreakerApp.Activities
                 inputText.Text = "";
             }
             catch { }
+        }
+
+        private void Btn_CopyRes_Click(object sender, EventArgs e)
+        {
+            string output = outputText.Text;
+
+            ClipboardManager cm = (ClipboardManager)GetSystemService(ClipboardService);
+            ClipData cd = ClipData.NewPlainText("Code", output);
+            cm.PrimaryClip = cd;
+        }
+
+        private void Btn_ClearRes_Click(object sender, EventArgs e)
+        {
+            outputText.Text = "";
         }
     }
 }
