@@ -52,6 +52,7 @@ namespace CodeBreakerApp
             btn_morse.Click += Btn_Morse_Click;
             btn_atoK.Click += Btn_AtoK_Click;
             btn_passwordCode.Click += Btn_Spejd_Click;
+            btn_alfaNr.Click += Btn_AlfaNr_Click;
 
             btn_about.Click += Btn_About_Click;
         }
@@ -71,6 +72,11 @@ namespace CodeBreakerApp
         private void Btn_Spejd_Click(object sender, EventArgs e)
         {
             Intent intent = new Intent(this, typeof(SpejdActivity));
+            StartActivity(intent);
+        }
+        private void Btn_AlfaNr_Click(object sender, EventArgs e)
+        {
+            Intent intent = new Intent(this, typeof(AlfaNrActivity));
             StartActivity(intent);
         }
 

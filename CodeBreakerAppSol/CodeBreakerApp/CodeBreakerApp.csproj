@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\AboutActivity.cs" />
+    <Compile Include="Activities\CodeActivities\AlfaNr\AlfaNrActivity.cs" />
+    <Compile Include="Activities\CodeActivities\AlfaNr\AlfaNrTableActivity.cs" />
     <Compile Include="Activities\CodeActivities\AtoK\AtoKActivity.cs" />
     <Compile Include="Activities\CodeActivities\AtoK\AtoKTableActivity.cs" />
     <Compile Include="Activities\CodeActivities\SPEJD\SpejdActivity.cs" />
@@ -105,6 +107,12 @@
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SpejdTable.axml">
       <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AlfaNrTable.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AlfaNr.axml">
+      <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
@@ -189,9 +197,7 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\AtoK.PNG" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Activities\CodeActivities\AlfaNr\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.

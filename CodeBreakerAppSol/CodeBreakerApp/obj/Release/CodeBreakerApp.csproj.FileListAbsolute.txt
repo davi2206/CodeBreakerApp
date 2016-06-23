@@ -34,6 +34,9 @@ C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Rel
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Release\res\drawable\atok.png
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Release\R.cs.flag
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Release\uploadflags.txt
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Release\res\layout\spejdtable.xml
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Release\res\layout\alfanrtable.xml
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Release\res\layout\alfanr.xml
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\bin\Release\CodeBreakerApp.dll.mdb
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\bin\Release\Translator.core.dll.mdb
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\bin\Release\Java.Interop.dll.mdb
@@ -57,6 +60,5 @@ C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Rel
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Release\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Release\android\assets\System.Xml.dll.mdb
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Release\android\assets\Translator.core.dll.mdb
-C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Release\res\layout\spejdtable.xml
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Release\CodeBreakerApp.dll.mdb
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\bin\Release\CodeBreakerApp.dll.mdb

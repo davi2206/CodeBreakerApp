@@ -20,6 +20,8 @@
   <string name="InputPassword">Kodeord</string>
   <string name="SpejdPasswordDouble">Kodeordet må kun indeholde hvert bogstav én gang!</string>
   <string name="SpejdPasswordInval">Kodeordet må kun indeholde bogstaver! Ingen special tegn!</string>
+  
+  <string name="AlfaNrTitl">Code Cracker - Alfa Nr.</string>
 
   <string name="aboutText">
     Code Cracker er et fritids projekt, som jeg har arbejdet med, for læringens skyld. Det er den første Android Applikation jeg har lavet.
