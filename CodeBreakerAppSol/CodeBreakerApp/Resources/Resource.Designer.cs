@@ -89,22 +89,25 @@ namespace CodeBreakerApp
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int AtoK = 2130837504;
+			public const int AlfaNr = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int btn_pressed_prim = 2130837505;
+			public const int AtoK = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int btn_pressed_sec = 2130837506;
+			public const int btn_pressed_prim = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int Icon = 2130837507;
+			public const int btn_pressed_sec = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int Morse = 2130837508;
+			public const int Icon = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int MorseKey = 2130837509;
+			public const int Morse = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int MorseKey = 2130837510;
 			
 			static Drawable()
 			{
@@ -119,113 +122,152 @@ namespace CodeBreakerApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080017
-			public const int AboutBtn = 2131230743;
-			
-			// aapt resource value: 0x7f080013
-			public const int AtoKBtn = 2131230739;
+			// aapt resource value: 0x7f080023
+			public const int AboutBtn = 2131230755;
 			
 			// aapt resource value: 0x7f08000f
-			public const int AtoKImg = 2131230735;
+			public const int AlfaNrImg = 2131230735;
 			
-			// aapt resource value: 0x7f080016
-			public const int ChinaBtn = 2131230742;
+			// aapt resource value: 0x7f08001f
+			public const int AtoKBtn = 2131230751;
 			
-			// aapt resource value: 0x7f08001d
-			public const int DelBtn = 2131230749;
+			// aapt resource value: 0x7f080011
+			public const int AtoKImg = 2131230737;
 			
-			// aapt resource value: 0x7f08001a
-			public const int DotBtn = 2131230746;
+			// aapt resource value: 0x7f080022
+			public const int ChinaBtn = 2131230754;
 			
-			// aapt resource value: 0x7f08001b
-			public const int LineBtn = 2131230747;
+			// aapt resource value: 0x7f08002a
+			public const int DelBtn = 2131230762;
 			
-			// aapt resource value: 0x7f080019
-			public const int MorseAlfabetContainer = 2131230745;
+			// aapt resource value: 0x7f080027
+			public const int DotBtn = 2131230759;
 			
-			// aapt resource value: 0x7f080012
-			public const int MorseBtn = 2131230738;
+			// aapt resource value: 0x7f080024
+			public const int HelpBtn = 2131230756;
 			
-			// aapt resource value: 0x7f080015
-			public const int NrBtn = 2131230741;
+			// aapt resource value: 0x7f080028
+			public const int LineBtn = 2131230760;
 			
-			// aapt resource value: 0x7f080004
-			public const int Options = 2131230724;
-			
-			// aapt resource value: 0x7f08000c
-			public const int ShowTableBtn = 2131230732;
-			
-			// aapt resource value: 0x7f080018
-			public const int Signature = 2131230744;
-			
-			// aapt resource value: 0x7f08001c
-			public const int SlashBtn = 2131230748;
-			
-			// aapt resource value: 0x7f080014
-			public const int SpejdBtn = 2131230740;
+			// aapt resource value: 0x7f080026
+			public const int MorseAlfabetContainer = 2131230758;
 			
 			// aapt resource value: 0x7f08001e
-			public const int SwitchBtn = 2131230750;
-			
-			// aapt resource value: 0x7f08000d
-			public const int TranslateBtn = 2131230733;
-			
-			// aapt resource value: 0x7f08000b
-			public const int TranslateBtnContainer = 2131230731;
-			
-			// aapt resource value: 0x7f080000
-			public const int aboutTextBox = 2131230720;
-			
-			// aapt resource value: 0x7f080023
-			public const int bottomHalf = 2131230755;
-			
-			// aapt resource value: 0x7f080009
-			public const int clearOutputBtn = 2131230729;
-			
-			// aapt resource value: 0x7f080008
-			public const int copyOutputBtn = 2131230728;
-			
-			// aapt resource value: 0x7f080002
-			public const int input = 2131230722;
-			
-			// aapt resource value: 0x7f080020
-			public const int inputPass = 2131230752;
+			public const int MorseBtn = 2131230750;
 			
 			// aapt resource value: 0x7f080021
-			public const int inputPassword = 2131230753;
+			public const int NrBtn = 2131230753;
+			
+			// aapt resource value: 0x7f080005
+			public const int Options = 2131230725;
+			
+			// aapt resource value: 0x7f08000d
+			public const int ShowTableBtn = 2131230733;
+			
+			// aapt resource value: 0x7f080025
+			public const int Signature = 2131230757;
+			
+			// aapt resource value: 0x7f080029
+			public const int SlashBtn = 2131230761;
+			
+			// aapt resource value: 0x7f080020
+			public const int SpejdBtn = 2131230752;
+			
+			// aapt resource value: 0x7f08002b
+			public const int SwitchBtn = 2131230763;
+			
+			// aapt resource value: 0x7f08000e
+			public const int TranslateBtn = 2131230734;
+			
+			// aapt resource value: 0x7f08000c
+			public const int TranslateBtnContainer = 2131230732;
+			
+			// aapt resource value: 0x7f080001
+			public const int aboutTextBox = 2131230721;
+			
+			// aapt resource value: 0x7f080030
+			public const int bottomHalf = 2131230768;
+			
+			// aapt resource value: 0x7f080013
+			public const int chkBxAddSpaces = 2131230739;
+			
+			// aapt resource value: 0x7f080012
+			public const int chkBxRemoveSpaces = 2131230738;
+			
+			// aapt resource value: 0x7f08000a
+			public const int clearOutputBtn = 2131230730;
+			
+			// aapt resource value: 0x7f080009
+			public const int copyOutputBtn = 2131230729;
+			
+			// aapt resource value: 0x7f080016
+			public const int help_AtoK = 2131230742;
+			
+			// aapt resource value: 0x7f080018
+			public const int help_alfanr = 2131230744;
+			
+			// aapt resource value: 0x7f08001a
+			public const int help_buttons_all = 2131230746;
+			
+			// aapt resource value: 0x7f08001b
+			public const int help_buttons_some = 2131230747;
+			
+			// aapt resource value: 0x7f080019
+			public const int help_chinese = 2131230745;
+			
+			// aapt resource value: 0x7f080014
+			public const int help_desc = 2131230740;
+			
+			// aapt resource value: 0x7f08001c
+			public const int help_fields = 2131230748;
+			
+			// aapt resource value: 0x7f080015
+			public const int help_morse = 2131230741;
+			
+			// aapt resource value: 0x7f080017
+			public const int help_password = 2131230743;
+			
+			// aapt resource value: 0x7f08001d
+			public const int help_support = 2131230749;
 			
 			// aapt resource value: 0x7f080003
-			public const int inputText = 2131230723;
+			public const int input = 2131230723;
+			
+			// aapt resource value: 0x7f08002d
+			public const int inputPass = 2131230765;
+			
+			// aapt resource value: 0x7f08002e
+			public const int inputPassword = 2131230766;
+			
+			// aapt resource value: 0x7f080004
+			public const int inputText = 2131230724;
 			
 			// aapt resource value: 0x7f080010
 			public const int ktoaChkBx = 2131230736;
 			
-			// aapt resource value: 0x7f080001
-			public const int linearLayout1 = 2131230721;
-			
-			// aapt resource value: 0x7f080006
-			public const int linearLayout2 = 2131230726;
-			
-			// aapt resource value: 0x7f08001f
-			public const int morseKeyFrame = 2131230751;
+			// aapt resource value: 0x7f080002
+			public const int linearLayout1 = 2131230722;
 			
 			// aapt resource value: 0x7f080007
-			public const int output = 2131230727;
+			public const int linearLayout2 = 2131230727;
 			
-			// aapt resource value: 0x7f08000a
-			public const int outputText = 2131230730;
+			// aapt resource value: 0x7f08002c
+			public const int morseKeyFrame = 2131230764;
 			
-			// aapt resource value: 0x7f080011
-			public const int scrollView1 = 2131230737;
+			// aapt resource value: 0x7f080008
+			public const int output = 2131230728;
 			
-			// aapt resource value: 0x7f080005
-			public const int spin_seedChooser = 2131230725;
+			// aapt resource value: 0x7f08000b
+			public const int outputText = 2131230731;
 			
-			// aapt resource value: 0x7f08000e
-			public const int textView1 = 2131230734;
+			// aapt resource value: 0x7f080000
+			public const int scrollView1 = 2131230720;
 			
-			// aapt resource value: 0x7f080022
-			public const int topHalf = 2131230754;
+			// aapt resource value: 0x7f080006
+			public const int spin_seedChooser = 2131230726;
+			
+			// aapt resource value: 0x7f08002f
+			public const int topHalf = 2131230767;
 			
 			static Id()
 			{
@@ -256,19 +298,25 @@ namespace CodeBreakerApp
 			public const int AtoKTable = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int Main = 2130903045;
+			public const int Chinese = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int Morse = 2130903046;
+			public const int Help = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int MorseTable = 2130903047;
+			public const int Main = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int Spejd = 2130903048;
+			public const int Morse = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int SpejdTable = 2130903049;
+			public const int MorseTable = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int Spejd = 2130903050;
+			
+			// aapt resource value: 0x7f03000b
+			public const int SpejdTable = 2130903051;
 			
 			static Layout()
 			{
@@ -289,8 +337,8 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050019
 			public const int AboutTitl = 2131034137;
 			
-			// aapt resource value: 0x7f050028
-			public const int AlfaNrTitl = 2131034152;
+			// aapt resource value: 0x7f050027
+			public const int AlfaNrTitl = 2131034151;
 			
 			// aapt resource value: 0x7f050018
 			public const int ApplicationName = 2131034136;
@@ -298,14 +346,14 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050008
 			public const int AtoKBtn = 2131034120;
 			
-			// aapt resource value: 0x7f050020
-			public const int AtoKExplain = 2131034144;
-			
 			// aapt resource value: 0x7f05001d
 			public const int AtoKTitl = 2131034141;
 			
 			// aapt resource value: 0x7f05000b
 			public const int ChinaBtn = 2131034123;
+			
+			// aapt resource value: 0x7f05002a
+			public const int ChineseTitl = 2131034154;
 			
 			// aapt resource value: 0x7f050010
 			public const int DelBtn = 2131034128;
@@ -322,14 +370,14 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050015
 			public const int InputCode = 2131034133;
 			
-			// aapt resource value: 0x7f050025
-			public const int InputPassword = 2131034149;
+			// aapt resource value: 0x7f050024
+			public const int InputPassword = 2131034148;
 			
 			// aapt resource value: 0x7f050014
 			public const int InputText = 2131034132;
 			
-			// aapt resource value: 0x7f050021
-			public const int KtoA = 2131034145;
+			// aapt resource value: 0x7f050020
+			public const int KtoA = 2131034144;
 			
 			// aapt resource value: 0x7f05000e
 			public const int LineBtn = 2131034126;
@@ -364,20 +412,20 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050009
 			public const int SpejdBtn = 2131034121;
 			
-			// aapt resource value: 0x7f050023
-			public const int SpejdKeyTitl = 2131034147;
+			// aapt resource value: 0x7f050022
+			public const int SpejdKeyTitl = 2131034146;
+			
+			// aapt resource value: 0x7f050025
+			public const int SpejdPasswordDouble = 2131034149;
 			
 			// aapt resource value: 0x7f050026
-			public const int SpejdPasswordDouble = 2131034150;
+			public const int SpejdPasswordInval = 2131034150;
 			
-			// aapt resource value: 0x7f050027
-			public const int SpejdPasswordInval = 2131034151;
+			// aapt resource value: 0x7f050023
+			public const int SpejdTableTitl = 2131034147;
 			
-			// aapt resource value: 0x7f050024
-			public const int SpejdTableTitl = 2131034148;
-			
-			// aapt resource value: 0x7f050022
-			public const int SpejdTitl = 2131034146;
+			// aapt resource value: 0x7f050021
+			public const int SpejdTitl = 2131034145;
 			
 			// aapt resource value: 0x7f050003
 			public const int SugestBtn = 2131034115;
@@ -388,8 +436,17 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050005
 			public const int TranslateBtn = 2131034117;
 			
+			// aapt resource value: 0x7f05002d
+			public const int aboutText = 2131034157;
+			
+			// aapt resource value: 0x7f05002c
+			public const int addSpacesBox = 2131034156;
+			
+			// aapt resource value: 0x7f050028
+			public const int alfaNrKeyTitl = 2131034152;
+			
 			// aapt resource value: 0x7f050029
-			public const int aboutText = 2131034153;
+			public const int alfaNrTableTitl = 2131034153;
 			
 			// aapt resource value: 0x7f05001e
 			public const int atokKeyTitl = 2131034142;
@@ -403,11 +460,47 @@ namespace CodeBreakerApp
 			// aapt resource value: 0x7f050011
 			public const int copyBtn = 2131034129;
 			
+			// aapt resource value: 0x7f050033
+			public const int help_alfanr = 2131034163;
+			
+			// aapt resource value: 0x7f050031
+			public const int help_atok = 2131034161;
+			
+			// aapt resource value: 0x7f050035
+			public const int help_buttons_all = 2131034165;
+			
+			// aapt resource value: 0x7f050036
+			public const int help_buttons_some = 2131034166;
+			
+			// aapt resource value: 0x7f050034
+			public const int help_chinese = 2131034164;
+			
+			// aapt resource value: 0x7f05002f
+			public const int help_desc = 2131034159;
+			
+			// aapt resource value: 0x7f050037
+			public const int help_fields = 2131034167;
+			
+			// aapt resource value: 0x7f050030
+			public const int help_morse = 2131034160;
+			
+			// aapt resource value: 0x7f050032
+			public const int help_password = 2131034162;
+			
+			// aapt resource value: 0x7f050038
+			public const int help_support = 2131034168;
+			
+			// aapt resource value: 0x7f05002e
+			public const int help_title = 2131034158;
+			
 			// aapt resource value: 0x7f05001b
 			public const int morseKeyTitl = 2131034139;
 			
 			// aapt resource value: 0x7f05001c
 			public const int morseTableTitl = 2131034140;
+			
+			// aapt resource value: 0x7f05002b
+			public const int removeSpaceBox = 2131034155;
 			
 			static String()
 			{

@@ -10,7 +10,6 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Translator.core;
-using CodeBreakerApp.Fragments;
 
 namespace CodeBreakerApp.Activities
 {
@@ -35,6 +34,8 @@ namespace CodeBreakerApp.Activities
 
         private void FindViews()
         {
+            SetTitle(Resource.String.atokTableTitl);
+
             iv = FindViewById<ImageView>(Resource.Id.AtoKImg);
             iv.SetImageResource(Resource.Drawable.AtoK);
         }

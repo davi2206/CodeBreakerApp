@@ -9,7 +9,6 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using CodeBreakerApp.Fragments;
 
 namespace CodeBreakerApp.Activities
 {
@@ -34,6 +33,8 @@ namespace CodeBreakerApp.Activities
 
         private void FindViews()
         {
+            SetTitle(Resource.String.morseTableTitl);
+
             morseKeyView = FindViewById<ImageView>(Resource.Id.morseKeyFrame);
             morseKeyView.SetImageResource(Resource.Drawable.MorseKey);
         }

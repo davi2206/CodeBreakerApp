@@ -9,7 +9,6 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Translator.core;
-using CodeBreakerApp.Fragments;
 
 namespace CodeBreakerApp.Activities
 {
@@ -51,6 +50,8 @@ namespace CodeBreakerApp.Activities
 
         private void FindViews()
         {
+            SetTitle(Resource.String.SpejdTableTitl);
+
             top = FindViewById<TextView>(Resource.Id.topHalf);
             bottom = FindViewById<TextView>(Resource.Id.bottomHalf);
         }

@@ -37,11 +37,14 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alfabets\AlfaNrAlfabet.cs" />
     <Compile Include="Alfabets\AtoKAlfabet.cs" />
     <Compile Include="Alfabets\MorseAlfabet.cs" />
     <Compile Include="Alfabets\SpejdAlfabet.cs" />
     <Compile Include="CodeCtrl.cs" />
+    <Compile Include="CodeTranslators\AlfaNr.cs" />
     <Compile Include="CodeTranslators\AtoK.cs" />
+    <Compile Include="CodeTranslators\Chinese.cs" />
     <Compile Include="CodeTranslators\Morse.cs" />
     <Compile Include="CodeTranslators\Spejd.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

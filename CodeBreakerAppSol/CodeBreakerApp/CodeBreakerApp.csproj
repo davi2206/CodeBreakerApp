@@ -52,7 +52,7 @@
     <EnableLLVM>False</EnableLLVM>
     <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
     <EnableProguard>False</EnableProguard>
-    <DebugSymbols>true</DebugSymbols>
+    <DebugSymbols>True</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -68,17 +68,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\AboutActivity.cs" />
+    <Compile Include="Activities\CodeActivities\Chinese\ChineseActivity.cs" />
     <Compile Include="Activities\CodeActivities\AlfaNr\AlfaNrActivity.cs" />
     <Compile Include="Activities\CodeActivities\AlfaNr\AlfaNrTableActivity.cs" />
     <Compile Include="Activities\CodeActivities\AtoK\AtoKActivity.cs" />
     <Compile Include="Activities\CodeActivities\AtoK\AtoKTableActivity.cs" />
     <Compile Include="Activities\CodeActivities\SPEJD\SpejdActivity.cs" />
     <Compile Include="Activities\CodeActivities\SPEJD\SpejdTableActivity.cs" />
+    <Compile Include="Activities\HelpActivity.cs" />
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Activities\CodeActivities\Morse\MorseActivity.cs" />
     <Compile Include="Activities\CodeActivities\Morse\MorseTableActivity.cs" />
-    <Compile Include="Fragments\MorseKey.cs" />
-    <Compile Include="Fragments\MorseTable.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -94,7 +94,7 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\About.axml">
-      <SubType>AndroidResource</SubType>
+      <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\AtoK.axml">
       <SubType>AndroidResource</SubType>
@@ -113,6 +113,12 @@
     </AndroidResource>
     <AndroidResource Include="Resources\layout\AlfaNr.axml">
       <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Chinese.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Help.axml">
+      <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
@@ -197,7 +203,9 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\AtoK.PNG" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\AlfaNr.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.

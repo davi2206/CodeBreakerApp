@@ -12,12 +12,16 @@ namespace Translator.core
         private Morse morse;
         private AtoK atok;
         private Spejd spejd;
+        private AlfaNr alfaNr;
+        private Chinese chinese;
 
         public CodeCtrl()
         {
             morse = new Morse();
             atok = new AtoK();
             spejd = new Spejd();
+            alfaNr = new AlfaNr();
+            chinese = new Chinese();
         }
 
         //Morse code
@@ -44,13 +48,28 @@ namespace Translator.core
             return spejd.Translate(inputText, pass, danish);
         }
 
+        //AlfaNr code
+        public string AlfaNr(string input, int seed, bool danish)
+        {
+            return alfaNr.Translate(input, seed, danish);
+        }
+
+        //Chinese text
+        public string Chinese(string inputText, bool removeSpaces, bool addSpaces)
+        {
+            return chinese.Translate(inputText, removeSpaces, addSpaces);
+        }
+
+
+
+
         //Get alfabet, A - K
         public Dictionary<char, char> GetAtoKAlfabet(bool danish, char seed)
         {
             return atok.GetAlfabet(danish, seed);
         }
 
-        //Get alfabet, A - K
+        //Get alfabet, SPEJD
         public Dictionary<char, char> GetSpejdAlfabet(string password, bool danish)
         {
             string pass = password.ToLower();

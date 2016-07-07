@@ -10,7 +10,6 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Translator.core;
-using CodeBreakerApp.Fragments;
 
 namespace CodeBreakerApp.Activities
 {
@@ -26,12 +25,19 @@ namespace CodeBreakerApp.Activities
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.AlfaNrTable);
-            
+
+            atokKeyTitl = GetString(Resource.String.alfaNrKeyTitl);
+            atokTableTitl = GetString(Resource.String.alfaNrTableTitl);
+
             FindViews();
         }
 
         private void FindViews()
         {
+            SetTitle(Resource.String.alfaNrTableTitl);
+
+            iv = FindViewById<ImageView>(Resource.Id.AlfaNrImg);
+            iv.SetImageResource(Resource.Drawable.AlfaNr);
         }
     }
 }

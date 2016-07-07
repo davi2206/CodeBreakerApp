@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/custBackGroundSec"
+        android:layout_margin="10sp"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/custBackGroundSec"
+            android:padding="10sp">
+            <TextView
+                android:text="@string/help_desc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/help_desc" />
+            <TextView
+                android:text="@string/help_morse"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/help_morse" />
+            <TextView
+                android:text="@string/help_atok"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/help_AtoK" />
+            <TextView
+                android:text="@string/help_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/help_password" />
+            <TextView
+                android:text="@string/help_alfanr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/help_alfanr" />
+            <TextView
+                android:text="@string/help_chinese"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/help_chinese" />
+            <TextView
+                android:text="@string/help_buttons_all"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/help_buttons_all" />
+            <TextView
+                android:text="@string/help_buttons_some"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/help_buttons_some" />
+            <TextView
+                android:text="@string/help_fields"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/help_fields" />
+            <TextView
+                android:text="@string/help_support"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColorLink="#000"
+                android:layout_marginBottom="10sp"
+                android:id="@+id/help_support" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

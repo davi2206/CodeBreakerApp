@@ -5,12 +5,18 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="10sp"
+      android:background="@color/custBackGroundSec"
+      android:id="@+id/scrollView1">
     <TextView
         android:text="Text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="10sp"
         android:id="@+id/aboutTextBox"
         android:background="@color/custBackGroundSec"
         android:padding="10sp" />
+  </ScrollView>
 </LinearLayout>

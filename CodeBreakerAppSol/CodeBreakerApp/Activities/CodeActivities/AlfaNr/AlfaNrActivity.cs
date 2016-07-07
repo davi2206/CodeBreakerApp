@@ -25,7 +25,6 @@ namespace CodeBreakerApp.Activities
         TextView output;
         EditText inputText;
         EditText outputText;
-        LinearLayout options;
         LinearLayout btnContainer;
 
         CodeCtrl cCtrl;
@@ -87,7 +86,7 @@ namespace CodeBreakerApp.Activities
             ArrayAdapter seed_adapter = ArrayAdapter.CreateFromResource(this, Resource.Array.numbers, Android.Resource.Layout.SimpleSpinnerItem);
             seed_adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerItem);
             chooseSeed_spin.Adapter = seed_adapter;
-            chooseSeed_spin.SetSelection(1);
+            chooseSeed_spin.SetSelection(0);
 
             input = FindViewById<TextView>(Resource.Id.input);
             output = FindViewById<TextView>(Resource.Id.output);
@@ -123,22 +122,18 @@ namespace CodeBreakerApp.Activities
                 danish = true;
             }
 
-            bool fromText = true;
-
-            int seed = 1;
+            int seed = 0;
 
             try
             {
-                int i = (int)chooseSeed_spin.SelectedItem;
-                seed = i;
+                Int32.TryParse((string)chooseSeed_spin.SelectedItem, out seed);
             }
             catch(Exception ex)
             {
                 throw ex;
             }
 
-
-            //result = cCtrl.AlfaNr(userInput, danish, seed);
+            result = cCtrl.AlfaNr(userInput, seed, danish);
             
             outputText.Text = result;
         }

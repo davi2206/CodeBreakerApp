@@ -50,14 +50,30 @@
                 android:id="@+id/ChinaBtn" />
         </LinearLayout>
     </ScrollView>
-    <Button
-        android:text="@string/AboutBtn"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="7"
-        android:layout_margin="5dp"
-        android:background="@drawable/btn_pressed_sec"
-        android:id="@+id/AboutBtn" />
+        android:id="@+id/linearLayout2">
+        <Button
+            android:text="@string/AboutBtn"
+            android:background="@drawable/btn_pressed_sec"
+            android:id="@+id/AboutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_weight="5"
+            android:layout_margin="5dp"/>
+        <Button
+            android:text="@string/HelpBtn"
+            android:background="@drawable/btn_pressed_sec"
+            android:id="@+id/HelpBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
     <TextView
         android:text="@string/Signature"
         android:layout_width="wrap_content"

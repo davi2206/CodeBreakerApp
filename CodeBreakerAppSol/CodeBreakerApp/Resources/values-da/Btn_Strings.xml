@@ -17,5 +17,7 @@
   <string name="LineBtn">-</string>
   <string name="SlashBtn">/</string>
   <string name="DelBtn">&lt;-- Slet</string>
+  <string name="copyBtn">Kopier kode</string>
+  <string name="clearBtn">Ryd</string>
 
 </resources>

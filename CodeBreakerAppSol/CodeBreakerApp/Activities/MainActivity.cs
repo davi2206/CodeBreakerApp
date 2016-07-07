@@ -19,8 +19,7 @@ namespace CodeBreakerApp
         Button btn_chineseText;
 
         Button btn_about;
-
-        //Add the rest of the buttons here!
+        Button btn_help;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -44,6 +43,7 @@ namespace CodeBreakerApp
             btn_chineseText = FindViewById<Button>(Resource.Id.ChinaBtn);
 
             btn_about = FindViewById<Button>(Resource.Id.AboutBtn);
+            btn_help = FindViewById<Button>(Resource.Id.HelpBtn);
         }
 
         //Add eventhandlers to buttons
@@ -53,8 +53,10 @@ namespace CodeBreakerApp
             btn_atoK.Click += Btn_AtoK_Click;
             btn_passwordCode.Click += Btn_Spejd_Click;
             btn_alfaNr.Click += Btn_AlfaNr_Click;
+            btn_chineseText.Click += Btn_Chinese_Click;
 
             btn_about.Click += Btn_About_Click;
+            btn_help.Click += Btn_Help_Click;
         }
 
         private void Btn_Morse_Click(object sender, EventArgs e)
@@ -80,9 +82,21 @@ namespace CodeBreakerApp
             StartActivity(intent);
         }
 
+        private void Btn_Chinese_Click(object sender, EventArgs e)
+        {
+            Intent intent = new Intent(this, typeof(ChineseActivity));
+            StartActivity(intent);
+        }
+
         private void Btn_About_Click(object sender, EventArgs e)
         {
             Intent intent = new Intent(this, typeof(AboutActivity));
+            StartActivity(intent);
+        }
+
+        private void Btn_Help_Click(object sender, EventArgs e)
+        {
+            Intent intent = new Intent(this, typeof(HelpActivity));
             StartActivity(intent);
         }
     }

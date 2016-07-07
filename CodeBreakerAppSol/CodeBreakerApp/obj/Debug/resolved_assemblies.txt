@@ -1,0 +1,14 @@
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Debug\android\assets\CodeBreakerApp.dll
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Debug\android\assets\Java.Interop.dll
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Debug\android\assets\Mono.Android.dll
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Debug\android\assets\mscorlib.dll
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Debug\android\assets\System.Core.dll
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Debug\android\assets\System.dll
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Debug\android\assets\System.Xml.dll
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Debug\android\assets\System.Xml.Linq.dll
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Debug\android\assets\Translator.core.dll
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Debug\android\assets\System.Runtime.Serialization.dll
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\CodeBreakerApp\obj\Debug\android\assets\System.Net.Http.dll

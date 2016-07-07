@@ -29,7 +29,7 @@
     <item>z</item>
   </string-array>
 
-  <integer-array name="numbers">
+  <string-array name="numbers">
     <item>1</item>
     <item>2</item>
     <item>3</item>
@@ -56,5 +56,5 @@
     <item>24</item>
     <item>25</item>
     <item>26</item>
-  </integer-array>
+  </string-array>
 </resources>

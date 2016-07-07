@@ -10,7 +10,6 @@
     <item name="android:buttonStyle">@style/MyButton</item>
     <item name="android:editTextStyle">@style/MyEditText</item>
     <item name="android:textViewStyle">@style/MyTextView</item>
-    <!--<item name="android:actionBarStyle">@style/MyActionBar</item>-->
   </style>
 
   <!--Button-->

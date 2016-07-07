@@ -11,7 +11,6 @@
   <string name="AtoKTitl">Code Cracker - A-K</string>
   <string name="atokKeyTitl">A-K Nøgle</string>
   <string name="atokTableTitl">A-K Tabel</string>
-  <string name="AtoKExplain">Dette er det standard tabellen, for A-K kode. Det nederste alfabet skubbes, indtil det ønskede udgangs bogstav er under \'a\' i det øverste alfabet</string>
   <string name="KtoA">Oversæt K-A</string>
   
   <string name="SpejdTitl">Code Cracker - Kodeord</string>
@@ -22,10 +21,111 @@
   <string name="SpejdPasswordInval">Kodeordet må kun indeholde bogstaver! Ingen special tegn!</string>
   
   <string name="AlfaNrTitl">Code Cracker - Alfa Nr.</string>
+  <string name="alfaNrKeyTitl">Alfa Nr. Nøgle</string>
+  <string name="alfaNrTableTitl">Alfa Nr. Tabel</string>
 
+  <string name="ChineseTitl">Code Cracker - Kinesisk Tekst</string>
+  <string name="removeSpaceBox">Fjern mellemrum</string>
+  <string name="addSpacesBox">Indsæt tilfældige mellemrum</string>
+  
   <string name="aboutText">
     Code Cracker er et fritids projekt, som jeg har arbejdet med, for læringens skyld. Det er den første Android Applikation jeg har lavet.
     \n\nIdeen med denne app er at blive i stand til at læse og skrive forskelige typer koder, så som morse, tal koder, og et par andre typer. 
-    \n\nDette er stadig en tidlig version af appen, og det er derfor kun Morse kode der er implementeret, indtil videre. 
+    \n\nDette er stadig en tidlig version af appen, og der er derfor stadig mange små detaljer, som ikke er helt på plads. For eksempel er de
+    forskellige tabeller ikke dynamiske, på alle kode typerne, men der vises en standard tabel. 
+  </string>
+
+  <!--Help page-->
+  <string name="help_title">Code Cracker - Hjælp</string>
+  <string name="help_desc">
+    <b><u>Code Cracker</u></b>
+    \nCode Cracker er et værktøj til at læse og skrive forskellige typer koder, som for eksempel Morse koder, A-K koder og mange andre.
+    \n
+  </string>
+
+  <!--Various codes-->
+  <string name="help_morse">
+    <b><u>Morse Kode</u></b>
+    \nMorse Kode oversætter text og tal til prikker og streger.
+    Disse koder er blevet brugt igennem mange år, og er nemme at oversætte
+    \n
+  </string>
+
+  <string name="help_atok">
+    <b><u>A - K Kode</u></b>
+    \nA-K kode bliver genereret ved at skubbe alfabetet, så det starter med et andet bogstav (K som standard)
+    Så når du vil skrive A, skriver du K i stedet for, B bliver til L, C bliver M og så videre. Bogstavet 
+    som alfabetet skubbes til kan være et hvilket som helst bogstav, hvilket gør det sværer at bryde koden 
+    da man skal kende \'seed\' bogstavet for at oversætte koden til tekst
+    \n
+  </string>
+
+  <string name="help_password">
+    <b><u>SPEJD Kode (Kodeords Kode)</u></b>
+    \nSPEJD kode laves ved først at skrive et kodeord, efterfulgt af resten af alfabetet, i to linjer, med
+    14 bogstaver i hver. Når man skriver alfabetet, udelades de bogstaver der allerede er i kodeordet.
+    Hvis kodeordet er SPEJD, bliver alfabetet skrevet: SPEJDABCFGHIKL-MNOQRTUVXYZÆØÅ. Når det er skrevet i 
+    to linjer, bruger man det bogstav der er over eller under det bogstav man vil skrive, så S bliver M, A 
+    bliver T, og så videre. Denne kodetype er ret svær at bryde da man skal kende kodeordet, for at 
+    oversætte den. 
+    \nKodeordet må kun indeholde hvert bogstav en gang!
+    \n
+  </string>
+
+  <string name="help_alfanr">
+    <b><u>Tal Kode</u></b>
+    \nDette er en kode hvor bogstaver er skrevet som deres numeriske værdi. Som standard er A = 1, B = 2 og så 
+    videre, men du kan vælge et andet \'seed\' tal, så A kunne være 5, B = 6, og så videre. 
+    En relativt simpel kode type
+    \n
+  </string>
+
+  <string name="help_chinese">
+    <b><u>Kinesisk Tekst</u></b>
+    \nDette er ikke kinesisk. Man vender blot teksten, så den skrives baglæns, hvilket kan være forvirrende. 
+    Du kan vælge at fjerne alle mellemrum fra den oprindelige tekst, før den vendes, og du kan vælge at få 
+    indsat tilfældige mellerum i den \'kodede\' tekst, for at gøre det mere forvirrende. 
+    \n
+  </string>
+
+  <string name="help_buttons_all">
+    <b><u>Knapper</u></b>
+    \nDer er en række knapper som findes ved alle kode typer:
+    \nKopier kode - Kopiere den oversatte tekst til udklipsholderen, så du kan indsætte det et andet sted, 
+    for at sende til en ven, eller sætte det ind i input boksen, for at oversætte det tilbage til tekst. 
+    \nRyd - Sletter alt fra kode resultat boksen.
+    \nOversæt - Oversætter teksten fra input boksen, og skriver koden i kode resultat boksen. 
+    \n
+  </string>
+
+  <string name="help_buttons_some">
+    <b><u>Flere knapper</u></b>
+    \nUdover de knapper som er delt af alle kode typer, er der også nogle få, mere specifikke knapper.
+    \nVis Oversættelses Tabel - De fleste koder har denne knap, som åbner en ny side, med oversættelses 
+    tabellen for den givne kode type, så du kan få en fornemmelse af hvordan koden oversættes. 
+    \nByt Plads - Kun morse kode har denne knap. Den bruges til at skifte fra tekst input, til morse input. 
+    Denne knap giver dig et sæt knapper til at skrive morse kode ind i indput feltet, så det kan oversættes 
+    til tekst. De nye knapper som vises er en prik, en streg, en skråstreg og en slet knap. (Brug langt tryk 
+    Slet knappen for at rydde input feltet). 
+    \n
+  </string>
+
+  <string name="help_fields">
+    <b><u>Yderligere felter</u></b>
+    \nNogle af kode typerne har nogle yderligere felter, som bruges til at definere den kode der oversættes.
+    \n\nA-K koden har en drop-down meny til at vælge et \'seed\' bogstav, som definere hvor langt alfabetet
+    skubbes.
+    \nA-k koden har også en check-boks til at vende oversætteres tilbage, fra K-A.
+    \n\nSPEJD koden har et indput felt til det kodeord du ønsker at bruge.
+    \n\nTal koden har en drop-down til at vælge hvilket tal alfabetet skal starte ved. 
+    \n\nTil har Kinesisk Tekst to check-bokse til henholdsvis at fjerne mellemrum og indsætte tilfældige 
+    mellemrum. 
+    \n
+  </string>
+
+  <string name="help_support">
+    <b><u>Support</u></b>
+    \nHvis du har spørgsmål eller finder en fejl, må du meget gerne kontakte mig på 
+    <a href="mailto:dmkolind@nokgodtnok.dk">dmkolind@nokgodtnok.dk</a>
   </string>
 </resources>
