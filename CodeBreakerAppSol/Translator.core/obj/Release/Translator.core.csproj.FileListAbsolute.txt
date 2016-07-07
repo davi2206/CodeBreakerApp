@@ -4,3 +4,5 @@ C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\Translator.core\obj\Re
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\Translator.core\obj\Release\Translator.core.pdb
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\Translator.core\obj\Release\Translator.core.dll.mdb
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\Translator.core\bin\Release\Translator.core.dll.mdb
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\Translator.core\obj\Release\Translator.core.dll.mdb
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\Translator.core\bin\Release\Translator.core.dll.mdb
