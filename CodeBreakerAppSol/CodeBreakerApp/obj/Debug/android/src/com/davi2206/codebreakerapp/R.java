@@ -32,44 +32,55 @@ public final class R {
         public static final int morsekey=0x7f020006;
     }
     public static final class id {
-        public static final int AboutBtn=0x7f080019;
-        public static final int AlfaNrImg=0x7f08000e;
-        public static final int AtoKBtn=0x7f080015;
-        public static final int AtoKImg=0x7f080010;
-        public static final int ChinaBtn=0x7f080018;
-        public static final int DelBtn=0x7f08001f;
-        public static final int DotBtn=0x7f08001c;
-        public static final int LineBtn=0x7f08001d;
-        public static final int MorseAlfabetContainer=0x7f08001b;
-        public static final int MorseBtn=0x7f080014;
-        public static final int NrBtn=0x7f080017;
-        public static final int Options=0x7f080004;
-        public static final int ShowTableBtn=0x7f08000c;
-        public static final int Signature=0x7f08001a;
-        public static final int SlashBtn=0x7f08001e;
-        public static final int SpejdBtn=0x7f080016;
-        public static final int SwitchBtn=0x7f080020;
-        public static final int TranslateBtn=0x7f08000d;
-        public static final int TranslateBtnContainer=0x7f08000b;
-        public static final int aboutTextBox=0x7f080000;
-        public static final int bottomHalf=0x7f080025;
-        public static final int chkBxAddSpaces=0x7f080012;
-        public static final int chkBxRemoveSpaces=0x7f080011;
-        public static final int clearOutputBtn=0x7f080009;
-        public static final int copyOutputBtn=0x7f080008;
-        public static final int input=0x7f080002;
-        public static final int inputPass=0x7f080022;
-        public static final int inputPassword=0x7f080023;
-        public static final int inputText=0x7f080003;
-        public static final int ktoaChkBx=0x7f08000f;
-        public static final int linearLayout1=0x7f080001;
-        public static final int linearLayout2=0x7f080006;
-        public static final int morseKeyFrame=0x7f080021;
-        public static final int output=0x7f080007;
-        public static final int outputText=0x7f08000a;
-        public static final int scrollView1=0x7f080013;
-        public static final int spin_seedChooser=0x7f080005;
-        public static final int topHalf=0x7f080024;
+        public static final int AboutBtn=0x7f080023;
+        public static final int AlfaNrImg=0x7f08000f;
+        public static final int AtoKBtn=0x7f08001f;
+        public static final int AtoKImg=0x7f080011;
+        public static final int ChinaBtn=0x7f080022;
+        public static final int DelBtn=0x7f08002a;
+        public static final int DotBtn=0x7f080027;
+        public static final int HelpBtn=0x7f080024;
+        public static final int LineBtn=0x7f080028;
+        public static final int MorseAlfabetContainer=0x7f080026;
+        public static final int MorseBtn=0x7f08001e;
+        public static final int NrBtn=0x7f080021;
+        public static final int Options=0x7f080005;
+        public static final int ShowTableBtn=0x7f08000d;
+        public static final int Signature=0x7f080025;
+        public static final int SlashBtn=0x7f080029;
+        public static final int SpejdBtn=0x7f080020;
+        public static final int SwitchBtn=0x7f08002b;
+        public static final int TranslateBtn=0x7f08000e;
+        public static final int TranslateBtnContainer=0x7f08000c;
+        public static final int aboutTextBox=0x7f080001;
+        public static final int bottomHalf=0x7f080030;
+        public static final int chkBxAddSpaces=0x7f080013;
+        public static final int chkBxRemoveSpaces=0x7f080012;
+        public static final int clearOutputBtn=0x7f08000a;
+        public static final int copyOutputBtn=0x7f080009;
+        public static final int help_AtoK=0x7f080016;
+        public static final int help_alfanr=0x7f080018;
+        public static final int help_buttons_all=0x7f08001a;
+        public static final int help_buttons_some=0x7f08001b;
+        public static final int help_chinese=0x7f080019;
+        public static final int help_desc=0x7f080014;
+        public static final int help_fields=0x7f08001c;
+        public static final int help_morse=0x7f080015;
+        public static final int help_password=0x7f080017;
+        public static final int help_support=0x7f08001d;
+        public static final int input=0x7f080003;
+        public static final int inputPass=0x7f08002d;
+        public static final int inputPassword=0x7f08002e;
+        public static final int inputText=0x7f080004;
+        public static final int ktoaChkBx=0x7f080010;
+        public static final int linearLayout1=0x7f080002;
+        public static final int linearLayout2=0x7f080007;
+        public static final int morseKeyFrame=0x7f08002c;
+        public static final int output=0x7f080008;
+        public static final int outputText=0x7f08000b;
+        public static final int scrollView1=0x7f080000;
+        public static final int spin_seedChooser=0x7f080006;
+        public static final int topHalf=0x7f08002f;
     }
     public static final class layout {
         public static final int about=0x7f030000;
@@ -78,11 +89,12 @@ public final class R {
         public static final int atok=0x7f030003;
         public static final int atoktable=0x7f030004;
         public static final int chinese=0x7f030005;
-        public static final int main=0x7f030006;
-        public static final int morse=0x7f030007;
-        public static final int morsetable=0x7f030008;
-        public static final int spejd=0x7f030009;
-        public static final int spejdtable=0x7f03000a;
+        public static final int help=0x7f030006;
+        public static final int main=0x7f030007;
+        public static final int morse=0x7f030008;
+        public static final int morsetable=0x7f030009;
+        public static final int spejd=0x7f03000a;
+        public static final int spejdtable=0x7f03000b;
     }
     public static final class string {
         public static final int AboutBtn=0x7f050000;
@@ -120,6 +132,8 @@ public final class R {
         public static final int SugestBtn=0x7f050003;
         public static final int SwitchBtn=0x7f050004;
         public static final int TranslateBtn=0x7f050005;
+        /** About page
+         */
         public static final int aboutText=0x7f05002d;
         public static final int addSpacesBox=0x7f05002c;
         public static final int alfaNrKeyTitl=0x7f050028;
@@ -128,6 +142,23 @@ public final class R {
         public static final int atokTableTitl=0x7f05001f;
         public static final int clearBtn=0x7f050012;
         public static final int copyBtn=0x7f050011;
+        public static final int help_alfanr=0x7f050033;
+        public static final int help_atok=0x7f050031;
+        public static final int help_buttons_all=0x7f050035;
+        public static final int help_buttons_some=0x7f050036;
+        public static final int help_chinese=0x7f050034;
+        public static final int help_desc=0x7f05002f;
+        public static final int help_fields=0x7f050037;
+        /** Various codes
+Various codes
+         */
+        public static final int help_morse=0x7f050030;
+        public static final int help_password=0x7f050032;
+        public static final int help_support=0x7f050038;
+        /** Help page
+Help page
+         */
+        public static final int help_title=0x7f05002e;
         public static final int morseKeyTitl=0x7f05001b;
         public static final int morseTableTitl=0x7f05001c;
         public static final int removeSpaceBox=0x7f05002b;
@@ -136,8 +167,6 @@ public final class R {
         /** Overall styles here.. 
          */
         public static final int AppBaseTheme=0x7f070000;
-        /** <item name="android:actionBarStyle">@style/MyActionBar</item>
-         */
         public static final int AppTheme=0x7f070001;
         /** Actionbar
 <item name="android:textSize">25sp</item>
