@@ -21,6 +21,8 @@
         p1:layout_weight="35"
         p1:layout_marginTop="0sp"
         p1:layout_marginBottom="15sp"
+        p1:editable="true"
+        p1:focusableInTouchMode="true"
         p1:id="@+id/inputText" />
     <LinearLayout
         p1:orientation="horizontal"
@@ -32,6 +34,7 @@
         <Spinner
             p1:layout_width="wrap_content"
             p1:layout_height="match_parent"
+            p1:clickable="true"
             p1:id="@+id/spin_seedChooser" />
     </LinearLayout>
     <LinearLayout

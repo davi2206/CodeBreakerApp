@@ -21,6 +21,8 @@
         p1:layout_weight="35"
         p1:layout_marginTop="0sp"
         p1:layout_marginBottom="15sp"
+        p1:editable="true"
+        p1:focusableInTouchMode="true"
         p1:id="@+id/inputText" />
     <LinearLayout
         p1:orientation="horizontal"
@@ -38,10 +40,13 @@
             p1:gravity="center" />
         <EditText
             p1:inputType="textMultiLine"
+            p1:text="@string/DefaultPassword"
             p1:minHeight="50dp"
             p1:id="@+id/inputPassword"
             p1:layout_width="match_parent"
             p1:layout_height="wrap_content"
+            p1:editable="true"
+            p1:focusableInTouchMode="true"
             p1:layout_marginLeft="10.0dp" />
     </LinearLayout>
     <LinearLayout

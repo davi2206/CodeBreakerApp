@@ -17,6 +17,7 @@
   <string name="SpejdKeyTitl">Kodeord Nøgle</string>
   <string name="SpejdTableTitl">Kodeord Tabel</string>
   <string name="InputPassword">Kodeord</string>
+  <string name="DefaultPassword">SPEJD</string>
   <string name="SpejdPasswordDouble">Kodeordet må kun indeholde hvert bogstav én gang!</string>
   <string name="SpejdPasswordInval">Kodeordet må kun indeholde bogstaver! Ingen special tegn!</string>
   

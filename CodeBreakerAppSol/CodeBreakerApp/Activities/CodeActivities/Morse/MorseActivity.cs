@@ -73,7 +73,7 @@ namespace CodeBreakerApp.Activities
 
                     input.Text = inputTextLbl;
                     output.Text = outputTextLbl;
-                    //inputText.ShowSoftInputOnFocus = true;// softInput;
+                    inputText.ShowSoftInputOnFocus = softInput;
                 }
                 catch (Exception)
                 {
@@ -123,18 +123,18 @@ namespace CodeBreakerApp.Activities
 
         private void HandleEvents()
         {
-            //btn_switch.Click += Btn_Switch_Click;
-            //btn_translate.Click += Btn_Translate_Click;
-            //btn_showTable.Click += Btn_ShowTable_Click;
-            //btn_dot.Click += Btn_Dot_Click;
-            //btn_line.Click += Btn_Line_Click;
-            //btn_slash.Click += Btn_Slash_Click;
-            //btn_del.Click += Btn_Del_Click;
-            //btn_del.LongClick += Btn_Del_Long_Click;
-            //btn_copyRes.Click += Btn_CopyRes_Click;
-            //btn_clearRes.Click += Btn_ClearRes_Click;
+            btn_switch.Click += Btn_Switch_Click;
+            btn_translate.Click += Btn_Translate_Click;
+            btn_showTable.Click += Btn_ShowTable_Click;
+            btn_dot.Click += Btn_Dot_Click;
+            btn_line.Click += Btn_Line_Click;
+            btn_slash.Click += Btn_Slash_Click;
+            btn_del.Click += Btn_Del_Click;
+            btn_del.LongClick += Btn_Del_Long_Click;
+            btn_copyRes.Click += Btn_CopyRes_Click;
+            btn_clearRes.Click += Btn_ClearRes_Click;
+            inputText.EditorAction += Btn_Translate_Click;
         }
-        //inputText.EditorAction += Btn_Translate_Click;
 
         private void Btn_Switch_Click(object sender, EventArgs e)
         {

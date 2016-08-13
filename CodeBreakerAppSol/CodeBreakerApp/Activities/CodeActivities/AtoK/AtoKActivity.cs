@@ -87,10 +87,11 @@ namespace CodeBreakerApp.Activities
             ArrayAdapter seed_adapter = ArrayAdapter.CreateFromResource(this, Resource.Array.alfabet, Android.Resource.Layout.SimpleSpinnerItem);
             seed_adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerItem);
             chooseSeed_spin.Adapter = seed_adapter;
+            chooseSeed_spin.ItemSelected += sp_ItemSelected;
             chooseSeed_spin.SetSelection(10);
 
             chkBx_KtoA = FindViewById<CheckBox>(Resource.Id.ktoaChkBx);
-            
+
             input = FindViewById<TextView>(Resource.Id.input);
             output = FindViewById<TextView>(Resource.Id.output);
             inputText = FindViewById<EditText>(Resource.Id.inputText);
@@ -103,6 +104,11 @@ namespace CodeBreakerApp.Activities
 
             input.Text = GetString(Resource.String.InputText);
             output.Text = GetString(Resource.String.OutputCode);
+        }
+
+        private void sp_ItemSelected(Object sender, AdapterView.ItemSelectedEventArgs e)
+        {
+            Toast.MakeText(this, "TEXT", ToastLength.Long);
         }
 
         private void HandleEvents()
@@ -120,7 +126,7 @@ namespace CodeBreakerApp.Activities
 
             bool danish = false;
             string[] list = Resources.GetStringArray(Resource.Array.alfabet);
-            if(list.Contains("ø"))
+            if (list.Contains("ø"))
             {
                 danish = true;
             }
@@ -139,14 +145,14 @@ namespace CodeBreakerApp.Activities
                 string c = (string)chooseSeed_spin.SelectedItem;
                 seed = c[0];
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
 
 
             result = cCtrl.AtoK(userInput, danish, fromText, seed);
-            
+
             outputText.Text = result;
         }
 

@@ -99,12 +99,13 @@ public final class R {
     public static final class string {
         public static final int AboutBtn=0x7f050000;
         public static final int AboutTitl=0x7f050019;
-        public static final int AlfaNrTitl=0x7f050027;
+        public static final int AlfaNrTitl=0x7f050028;
         public static final int ApplicationName=0x7f050018;
         public static final int AtoKBtn=0x7f050008;
         public static final int AtoKTitl=0x7f05001d;
         public static final int ChinaBtn=0x7f05000b;
-        public static final int ChineseTitl=0x7f05002a;
+        public static final int ChineseTitl=0x7f05002b;
+        public static final int DefaultPassword=0x7f050025;
         public static final int DelBtn=0x7f050010;
         public static final int DonateBtn=0x7f050002;
         public static final int DotBtn=0x7f05000d;
@@ -125,8 +126,8 @@ public final class R {
         public static final int SlashBtn=0x7f05000f;
         public static final int SpejdBtn=0x7f050009;
         public static final int SpejdKeyTitl=0x7f050022;
-        public static final int SpejdPasswordDouble=0x7f050025;
-        public static final int SpejdPasswordInval=0x7f050026;
+        public static final int SpejdPasswordDouble=0x7f050026;
+        public static final int SpejdPasswordInval=0x7f050027;
         public static final int SpejdTableTitl=0x7f050023;
         public static final int SpejdTitl=0x7f050021;
         public static final int SugestBtn=0x7f050003;
@@ -134,34 +135,34 @@ public final class R {
         public static final int TranslateBtn=0x7f050005;
         /** About page
          */
-        public static final int aboutText=0x7f05002d;
-        public static final int addSpacesBox=0x7f05002c;
-        public static final int alfaNrKeyTitl=0x7f050028;
-        public static final int alfaNrTableTitl=0x7f050029;
+        public static final int aboutText=0x7f05002e;
+        public static final int addSpacesBox=0x7f05002d;
+        public static final int alfaNrKeyTitl=0x7f050029;
+        public static final int alfaNrTableTitl=0x7f05002a;
         public static final int atokKeyTitl=0x7f05001e;
         public static final int atokTableTitl=0x7f05001f;
         public static final int clearBtn=0x7f050012;
         public static final int copyBtn=0x7f050011;
-        public static final int help_alfanr=0x7f050033;
-        public static final int help_atok=0x7f050031;
-        public static final int help_buttons_all=0x7f050035;
-        public static final int help_buttons_some=0x7f050036;
-        public static final int help_chinese=0x7f050034;
-        public static final int help_desc=0x7f05002f;
-        public static final int help_fields=0x7f050037;
+        public static final int help_alfanr=0x7f050034;
+        public static final int help_atok=0x7f050032;
+        public static final int help_buttons_all=0x7f050036;
+        public static final int help_buttons_some=0x7f050037;
+        public static final int help_chinese=0x7f050035;
+        public static final int help_desc=0x7f050030;
+        public static final int help_fields=0x7f050038;
         /** Various codes
 Various codes
          */
-        public static final int help_morse=0x7f050030;
-        public static final int help_password=0x7f050032;
-        public static final int help_support=0x7f050038;
+        public static final int help_morse=0x7f050031;
+        public static final int help_password=0x7f050033;
+        public static final int help_support=0x7f050039;
         /** Help page
 Help page
          */
-        public static final int help_title=0x7f05002e;
+        public static final int help_title=0x7f05002f;
         public static final int morseKeyTitl=0x7f05001b;
         public static final int morseTableTitl=0x7f05001c;
-        public static final int removeSpaceBox=0x7f05002b;
+        public static final int removeSpaceBox=0x7f05002c;
     }
     public static final class style {
         /** Overall styles here.. 
