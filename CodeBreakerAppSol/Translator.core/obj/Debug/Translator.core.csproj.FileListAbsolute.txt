@@ -56,3 +56,7 @@ C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\Translator.core\obj\De
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\Translator.core\bin\Debug\Translator.core.dll.mdb
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\Translator.core\obj\Debug\Translator.core.dll.mdb
 C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\Translator.core\bin\Debug\Translator.core.dll.mdb
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\Translator.core\obj\Debug\Translator.core.dll.mdb
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\Translator.core\bin\Debug\Translator.core.dll.mdb
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\Translator.core\obj\Debug\Translator.core.dll.mdb
+C:\Users\David\Documents\CodeBreakerApp\CodeBreakerAppSol\Translator.core\bin\Debug\Translator.core.dll.mdb

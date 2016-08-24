@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.davi2206.CodeBreakerApp" android:versionName="4.0 Beta" android:installLocation="auto" android:versionCode="4">
-	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23" />
+	<uses-sdk android:minSdkVersion="18" android:targetSdkVersion="23" />
 	<application android:label="@string/ApplicationName" android:theme="@style/AppTheme" android:icon="@drawable/Icon"></application>
 </manifest>
