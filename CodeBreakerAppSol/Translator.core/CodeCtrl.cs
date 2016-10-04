@@ -32,6 +32,15 @@ namespace Translator.core
 
         public string MorseCtoT(string inputCode)
         {
+            inputCode = inputCode.Replace(".", "*");
+            inputCode = inputCode.Replace("0", "*");
+            inputCode = inputCode.Replace(",", "*");
+
+            inputCode = inputCode.Replace("_", "-");
+            inputCode = inputCode.Replace("~", "-");
+            inputCode = inputCode.Replace("-", "-");
+            inputCode = inputCode.Replace("1", "-");
+
             return morse.CodeToText(inputCode);
         }
 
